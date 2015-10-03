@@ -1,5 +1,5 @@
 # html-lstm
-The aim of this project is to create a LSTM recurrent neural network that can learn to generate webpages consisting of HTML and CSS. 
+The aim of this project is to create a LSTM recurrent neural network that can learn to generate webpages character by character consisting of HTML and CSS. 
 The network is trained on a text file with HTML and CSS that has been taken from random urls. The pages to which the urls lead did not or hardly use any JavaScript. 
 ..
 
