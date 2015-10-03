@@ -1,0 +1,770 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><style type="text/css">@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,400italic,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400italic);
+html, body {
+padding : 0;
+margin : 0;
+}
+html {
+font-size : 14px;
+}
+a img, :link img, :visited img {
+border : 0;
+}
+img.cover { border: 1px solid #777; margin-right:4px; }
+body {
+font-size : 100%;
+background-color : #99ccff;
+}
+#accessibility {
+display : none;
+visibility : hidden;
+}
+#graphic1 {
+position : absolute;
+top : 10px;
+left : 10px;
+width : 166px;
+height : 110px;
+border : none;
+padding : 0;
+background-color : #ffffff;
+}
+#graphic2 {
+position : absolute;
+top : 10px;
+left : 804px;
+width : 83px;
+height : 55px;
+border : none;
+padding : 0;
+background-color : #ffffff;
+}
+#Frame1 {
+position : absolute;
+top : 4px;
+left : 204px;
+width : 570px;
+text-align : left;
+background : #ffffff;
+border-left : 4px solid #99ccff;
+border-right : 4px solid #99ccff;
+}
+em, i, cite {font-family: 'Droid Serif', Helvetica, Arial, Geneva, sans-serif; font-style: italic; }
+.entry-content {
+
+padding-top : 1px;
+padding-left : 8px;
+padding-right : 8px;
+}
+.entry-comment {
+padding-left : 4px;
+padding-right : 4px;
+
+}
+#Frame1 h1 {
+color : maroon;
+font-family : Arial, Helvetica, Sans-Serif;
+font-weight : normal;
+font-size : 1.6em;
+margin-left:8px; margin-right:8px; 
+}
+#Frame1 h2, #Frame1 h3 {
+color : maroon;
+font-family : Arial, Helvetica, Sans-Serif;
+font-weight : bold;
+font-size : 100%;
+margin-bottom : -12px;
+text-transform: uppercase;
+}
+#Frame1 h2.notes {
+margin-bottom: -2px;
+}
+#Frame1 h1.homepage {
+color : #933;
+font-family : Arial, Helvetica, Sans-Serif;
+font-weight : bold;
+font-variant : normal;
+font-size : 160%;
+}
+#Frame1 h2.homepage {
+background : #99ccff url(http://peacemagazine.org/archive/images/89.gif) no-repeat left;
+color : #fff;
+font-family : Arial, Helvetica, Sans-Serif;
+font-weight : bold;
+font-variant : normal;
+font-size : medium;
+margin-left : -8px;
+margin-right:-7px;
+margin-top : 0;
+}
+#Frame1 h4 {
+color : maroon;
+font-family : Arial, Helvetica, Sans-Serif;
+font-weight : bold;
+font-size : 110%
+margin-bottom : 0;
+}
+#Frame2 h2, #Frame2 h3, #Frame2 h4 {
+color : maroon;
+font-family : Arial, Helvetica, Sans-Serif;
+font-weight : bold;
+font-size : 110%;
+}
+#Frame1 h3.strap {
+background-color : maroon;
+color : white;
+font-family : Arial, Helvetica, Sans-Serif;
+font-weight : bold;
+}
+#Frame2 {
+background-color : #ffffff;
+position : absolute;
+top : 4px;
+left : 0;
+margin : 0;
+width : 202px;
+text-align : right;
+padding-top : 4px;
+padding-bottom : 4px;
+font-family : Arial, Helvetica, Sans-Serif;
+font-size: 0.9em;
+}
+#Frame2 p {
+margin-top : 0;
+margin-bottom : 4px;
+padding-right : 6px;
+padding-left : 6px;
+
+
+}
+#Frame3 p {
+margin-top : 3px;
+margin-bottom : 0px;
+font-size : 0.9em;
+}
+#Frame1 p, #Frame1 li, dt, dd {
+font-family : 'Droid Sans', Arial, Helvetica, Sans-Serif;
+font-size : 1em;
+line-height: 1.25em; 
+}
+#Frame3 {
+font-family : Arial, Helvetica, Sans-Serif;
+position : absolute;
+top : 0;
+left : 782px;
+min-height : 400px;
+background-color : transparent;
+padding-right : 6px;
+padding-top : 10px;
+text-align : left;
+}
+.s4p {
+background-color : #ffeeff;
+}
+.big {
+font-weight : 700;
+color : navy;
+}
+address {
+font-size : 90%;
+}
+.framea {
+border:1px solid cyan;
+padding:4px;
+margin-top:6px;
+margin-bottom:6px;
+}
+#Frame1 p.sans, span.sans {
+font-family : Helvetica, Arial, Sans-Serif;
+font-size : 85%;
+}
+#Frame1 h1 a {
+color : #900;
+}
+#Frame1 h1 a, #Frame1 h2 a, #Frame1 h3 a, #Frame1 h4 a {
+text-decoration : none;
+}
+#Frame1 h4.search-title {
+padding:0; margin-left:6px; margin-top:0;margin-bottom:0;
+}
+#Frame1 p.search-entry {
+font-family : 'Droid Sans', Arial, Helvetica, Sans-Serif;
+font-size : 85%;
+margin-left: 6px;
+margin-top : 0;
+margin-bottom : 6px;
+}
+#Frame1 p.entry-summary {
+font-family : 'Droid Sans', Arial, Helvetica, Sans-Serif;
+font-size : 90%;
+margin-top : 0;
+margin-bottom : 0;
+}
+#Frame1 p.published {
+font-family : Helvetica, Arial, Sans-Serif;
+font-size : 80%;
+color : #ffffff;
+background-color : maroon;
+margin-top : 0;
+margin-bottom : 0;
+margin-left:8px; margin-right:8px; 
+padding-right:4px;
+text-align : right;
+}
+#Frame1 p.small, #Frame1 p.footnote {
+font-family : Helvetica, Arial, Sans-Serif;
+font-size : 80%;
+margin-top : 8px;
+margin-bottom : 0;
+}
+#Frame1 p.caption {
+font-family : Helvetica, Arial, Sans-Serif;
+font-size : 75%;
+margin-top : 4px;
+margin-bottom : 0;
+line-height:1.1em;
+}
+p.footnote sup {
+vertical-align: baseline;
+}
+p sup {
+vertical-align: 5px;
+font-size:75%;
+}
+p.first:first-letter {
+        margin-top: 4px;
+margin-right:2px;
+	font-size: 2.8em;
+	float: left;
+      color: maroon;
+font-family: "Trebuchet MS", Arial, sans-serif;
+}
+div.commenting {
+width : auto;
+font-family : Helvetica, Arial, sans-serif;
+}
+textarea#message {
+width : 185px;
+}
+p.author {
+font-weight : bold;
+font-size : 90%;
+font-family : 'Droid Sans', Helvetica, Arial, sans-serif;
+color : #33a;
+background : transparent;
+text-align : left;
+text-transform : uppercase;
+}
+p.quote { 
+padding-left : 8px; 
+padding-right : 8px; 
+border-left : 2px solid navy; 
+}
+
+blockquote p {
+font-size : small;
+font-family : 'Droid Sans', Arial, Helvetica, Sans-Serif;
+border-top : 1px solid maroon;
+border-bottom : 1px solid maroon;
+padding-top:3px; padding-bottom:2px;
+color : navy;
+text-align : left;
+}
+blockquote { font-family : 'Droid Sans', Arial, Helvetica, Sans-Serif; }
+blockquote.inside {
+font-size : 1.1em;
+font-family : 'Droid Sans', Arial, Helvetica, Sans-Serif;
+color : maroon;
+text-align : left;
+}
+address.pressmark {
+background-color : #99ccff;
+font-family : Arial, Helvetica, Geneva, sans-serif;
+font-size:smaller;
+border-top : 1px solid navy;
+margin-top:6px;
+padding-top : 0;
+padding-left:4px; padding-right:4px;
+}
+p.indent {
+margin-left:1em;
+padding-left:0.25em;
+border-left:2px solid #999;
+}
+div.search-results {
+padding-left: 6px;
+}
+div.photo-div-right, img.photo-div-right {
+float:right;
+margin-left:6px;
+padding:5px;
+width:210px; height:auto;
+border:1px solid navy;
+}
+div.photo-div-left, img.photo-div-left {
+float:left;
+margin-right:6px;
+padding:5px;
+width:200px; height:auto;
+border: 1px solid navy;
+}
+div.webonly {
+margin:12px;
+padding:9px;
+width:auto; height:auto;
+background-color: #f3f3ff;
+}
+fieldset { border: none; padding:0; margin:0; }
+/* --- Smartphones and small Tablet PCs --- */
+@media screen and (max-width : 620px) {
+body{
+  -webkit-text-size-adjust:none;
+  font-family:Helvetica, Arial, Verdana, sans-serif;
+  padding:5px;
+background-color:#ffffff;
+}
+#graphic2, #graphic1, #Frame3 img.masthead, .big { visibility:hidden;
+position:relative; display:none;
+}
+#Frame1, #Frame2, #Frame3, #graphic1 {
+background:#ffffff;
+  clear:both!important;
+  display:block!important;
+  width:100%!important;
+  float:none!important;
+  position:relative!important;
+  left:0px!important;
+  border:none!important;
+  margin:0!important;
+  padding:0!important;
+}
+#Frame1 p, #Frame1 blockquote {
+margin-left:4px; margin-right:4px;
+}
+#Frame3,#Frame3 p{
+  margin:0 0 0 0!important;
+border:none!important;
+top:0;
+background:transparent;
+  padding:0;
+  text-align:left!important;
+}
+#Frame3 p{
+display:inline;
+  margin:0!important;
+line-height:1.6em;
+  width:95%;
+}
+#Frame3 a{
+  display:inline;
+color:navy;
+background-color:#eeeeff;
+margin-top:3px; margin-bottom:3px;
+border:1px solid navy; padding:2px; text-decoration:none;
+}
+p fieldset { border:none; width:95%;}
+#searchterm { width:100%;}
+#header {height:auto; background-color:#ccc; }
+h1.hidden { display:block; visibility: visible; font-family: Trebuchet MS, Arial, Helvetica, sans-serif; color: #993333; }
+h2 {font-size: 1.5em;}
+.solidblockmenu { background-color:#d7d7ff; background-image:none; border:none; }
+.solidblockmenu li { display:block;  }
+.solidblockmenu li a {text-align:center; padding:2px; border-bottom:2px solid navy; margin-left:2px; margin-top:2px;  float:none; }
+#header { background-image:none;}
+img { max-width:100%; height:auto; }
+.desktop { display:none; }
+}
+.zemText, div.zemText {
+font-family : 'Droid Sans', Arial, Helvetica, Sans-Serif;
+font-size: 14px;
+}
+form.zemContactForm {
+font-family : 'Droid Sans', Arial, Helvetica, Sans-Serif;
+font-size: 14px;
+}
+form.zemContactForm fieldset {
+   border: none;
+   }
+form.zemContactForm legend {
+   visibility: hidden; display: none;
+   }
+form.zemContactForm label {
+   float: left;
+   width: 160px;
+   margin: 0.3em 10px 0 0;
+   text-align: right;
+   }
+form.zemContactForm br {
+   clear: left;
+   }
+form.zemContactForm #zemSubmit {
+   margin: 0.5em 0 0 70px;
+   }
+.center {
+text-align : center;
+}
+body {
+color : #000;
+font-family : Georgia, "Times New Roman", Times, serif;
+border : none;
+}
+a:active {
+color : red;
+text-decoration : none;
+}
+a:link {
+color : red;
+text-decoration : none;
+}
+a:visited {
+color : red;
+text-decoration : none;
+}
+h1 {
+font-weight : 600;
+color : #36c;
+font-size : 14pt;
+font-family : Geneva, Arial, Helvetica, sans-serif;
+background-color : transparent;
+}
+h2 {
+font-weight : 500;
+font-size : 12pt;
+font-family : Geneva, Arial, Helvetica, sans-serif;
+color : #69c;
+}
+h3 {
+font-weight : 500;
+font-size : 12pt;
+font-family : Geneva, Arial, Helvetica, sans-serif;
+color : #69c;
+}
+acronym {
+text-decoration : underline;
+}
+#footer {
+font-family : Geneva, Arial, Helvetica, sans-serif;
+font-size : 10pt;
+}
+.footnote {
+font-style : normal;
+font-weight : normal;
+font-size : 8pt;
+background : transparent;
+color : black;
+text-align : left;
+}
+.endnote {
+font-style : normal;
+font-weight : normal;
+font-size : 8pt;
+background : transparent;
+color : black;
+text-align : left;
+}
+.float {
+font-weight : normal;
+font-size : 9pt;
+font-family : Arial, Helvetica, Geneva, sans-serif;
+color : black;
+text-align : left;
+margin-left : 10pt;
+margin-right : 10pt;
+}
+.source {
+font-weight : normal;
+font-size : 9pt;
+font-family : Arial, Helvetica, Geneva, sans-serif;
+color : navy;
+border-bottom : thin solid orange;
+text-align : left;
+margin-left : 5pt;
+margin-right : 5pt;
+}
+p {
+color : #000;
+font-size : 10pt;
+margin-top : 3pt;
+}
+li {
+color : #000;
+font-size : 10pt;
+}
+address {
+color : #000;
+font-size : 10pt;
+}
+.footer {
+display : none;
+}
+#graphic1 {
+display : none;
+}
+#Frame2, #Frame3, #accessibility {
+display : none; 
+}
+@page {
+}
+.center {
+text-align : center;
+}
+body {
+color : #000;
+font-family : Georgia, "Times New Roman", Times, serif;
+width : 100%;
+border : none;
+}
+a:active {
+color : red;
+text-decoration : none;
+}
+a:link {
+color : red;
+text-decoration : none;
+}
+a:visited {
+color : red;
+text-decoration : none;
+}
+h1 {
+font-weight : 600;
+color : #36c;
+font-size : 14pt;
+font-family : Geneva, Arial, Helvetica, sans-serif;
+background-color : transparent;
+}
+h2 {
+font-weight : 500;
+font-size : 12pt;
+font-family : Geneva, Arial, Helvetica, sans-serif;
+color : #69c;
+}
+h3 {
+font-weight : 500;
+font-size : 12pt;
+font-family : Geneva, Arial, Helvetica, sans-serif;
+color : #69c;
+}
+acronym {
+text-decoration : underline;
+}
+#footer {
+font-family : Geneva, Arial, Helvetica, sans-serif;
+font-size : 10pt;
+}
+.footnote {
+font-style : normal;
+font-weight : normal;
+font-size : 8pt;
+background : transparent;
+color : black;
+text-align : left;
+}
+.endnote {
+font-style : normal;
+font-weight : normal;
+font-size : 8pt;
+background : transparent;
+color : black;
+text-align : left;
+}
+.float {
+font-weight : normal;
+font-size : 9pt;
+font-family : Arial, Helvetica, Geneva, sans-serif;
+color : black;
+text-align : left;
+margin-left : 10pt;
+margin-right : 10pt;
+}
+.source {
+font-weight : normal;
+font-size : 9pt;
+font-family : Arial, Helvetica, Geneva, sans-serif;
+color : navy;
+border-bottom : thin solid orange;
+text-align : left;
+margin-left : 5pt;
+margin-right : 5pt;
+}
+p {
+color : #000;
+font-size : 10pt;
+margin-top : 3pt;
+}
+li {
+color : #000;
+font-size : 10pt;
+}
+address {
+color : #000;
+font-size : 10pt;
+}
+.footer {
+display : none;
+}
+#Frame1, #Frame3 {
+display : block;
+position : relative;
+}
+
+#Frame2 {
+display : none; 
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" lang="en" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="keywords" content="Peace Magazine, conflict resolution, disarmament, sanctions, UN" />
+<meta name="description" content="Peace Magazine publishes a range of articles on peace issues -- technically accurate, yet intelligible to any reader with a general education and some interest in international affairs and global security." />
+<meta name="language" content="en" />
+
+
+
+<link rel="canonical" href="http://www.peacemagazine.org/index.php?id=2079" />
+
+
+<!--css-->
+	<link rel="stylesheet" href="http://www.peacemagazine.org/css.php?n=articles" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://www.peacemagazine.org/css.php?n=print" type="text/css" media="print" />
+	<link rel="stylesheet" href="http://www.peacemagazine.org/css.php?n=handheld" type="text/css" media="handheld" />
+
+<title>Peace Magazine: Welcome</title>
+</head>
+<body lang="en">
+<!-- accessibility -->
+<div id="accessibility">
+<h1>Peace Magazine</h1>
+	<ul>
+		<li><a href="#Frame1">Go to content</a></li>
+		<li><a href="#Frame3">Go to navigation</a></li>
+		<li><a href="#search">Go to search</a></li>
+	</ul>
+</div>
+
+
+
+
+<div id="Frame1">
+
+
+
+<div class="entry-content">
+	<h2 style="text-align:center;" class="homepage">Vol.31, No.4: October-December 2015</h2>
+
+	<h1 style="text-align:center;" class="homepage">So What Makes a New War <em>New</em>?</h1>
+
+<p style="width:auto; text-align:right; padding-right: 9px;"><img src="http://peacemagazine.org/archive/images/118t.jpg" style="border:1px solid #99ccff; float: right; margin-left: 9px;">
+<span style="font-style:italic; font-family:'Droid serif', Georgia, serif; font-size:90%;">A US airstrike on Islamic State (IS) positions in Syria, September 2014.</p><br clear="all" />
+
+	<p>The &#8220;New Wars&#8221; of the 21st century are confounding our expectations of armed conflict. They have a different logic, and require different responses, as <strong>Mary Kaldor</strong> explains to Metta Spencer in <a href="/index.php?id=2430">New Wars and Old</a> <span class="sans"><strong><span class="caps">COMMENT</span></strong></span></p>
+
+	<h3 class="strap">Also in this issue</h3>
+
+	<p><a href="/index.php?id=2429">Gandhi Katha: A Life Lived According to Gita</a> <span class="sans"><strong><span class="caps">COMMENT</span></strong></span><br />
+<strong>Rama Shankar Singh</strong> recalls the wisdom of Narayan Desai, the nonviolent activist who knew Gandhi well&#8212;his father Mahadev was the Mahatma&#8217;s secretary&#8212;and who died in March this year aged 90.</p>
+
+	<p><a href="/index.php?id=2436">Pope Francis and a New Dialogue</a> <span class="sans"><strong><span class="caps">COMMENT</span></strong></span><br />
+Never has a papal encyclical generated so much interest and attention as this year&#8217;s Laudato Si&#8217;. <strong>Michael Taylor Ross</strong> looks at how the Pope has worked with other faiths, scientists, and secular activists to reach a profound understanding of the relationship between faith and ecology.</p>
+
+	<p><a href="/index.php?id=2437">Implement Canada&#8217;s Truth and Reconciliation Commission&#8217;s Recommendations</a> <span class="sans"><strong><span class="caps">COMMENT</span></strong></span><br />
+<strong>Janet Nicol</strong> gives a guide to action for people who wish to learn more, or to participate more fully, in the process of reconciliation with Canada&#8217;s aboriginal peoples.</p>
+
+	<h3 class="strap">Talk back: Commenting on articles</h3>
+
+	<p>You can submit comments on selected articles during the current issue&#8217;s date-span (eg Jul-Sep 2015). We are using a slightly different article template for these articles; follow the links in the paragraphs above, or see this issue&#8217;s <a href="/archive/?id=2412">table of contents page</a> to pass your judgment on current articles. Comments are moderated, so will not display immediately on the page. </p>
+
+	<p>If you want to discuss an earlier article with us, or if you would like to submit a letter to the editor for publication, you can <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#101;&#100;&#105;&#116;&#111;&#114;&#64;&#112;&#101;&#97;&#99;&#101;&#109;&#97;&#103;&#97;&#122;&#105;&#110;&#101;&#46;&#111;&#114;&#103;">write the editor</a> directly.</p>
+
+	<h2>Follow us on Facebook and Twitter</h2>
+
+	<p><em>Facebook page:</em> <a href="http://www.facebook.com/pages/Peace-Magazine/224393994267274">www.facebook.com/pages/Peace-Magazine/224393994267274</a>. Another way to keep connected and give us your feedback on our articles.<br />
+<em>Twitter feed:</em> <a href="http://twitter.com/peace_mag">twitter.com/peace_mag</a></p>
+
+	<h2>Credit card payments</h2>
+
+	<p><strong>We can now take most online payments through PayPal.</strong> See the right-hand sidebar on this page for special forms for new subscriptions and renewals; other payments, such as gift subscriptions, can also be paid online by request (we&#8217;ll email you an electronic invoice). We no longer take credit card payments by mail or phone, due to excessively high charges, but PayPal accepts all major credit cards on our behalf (choose the &#8220;Don&#8217;t have a PayPal account?&#8221; option when checking out).</p>
+
+	<p>You are, of course, always welcome to pay with Canadian or US cheques through the mail.</p>
+
+	<h2>Cover Gallery</h2>
+
+	<p>Our <strong>cover gallery</strong> can be found at <a href="http://www.peacemagazine.org/covers.htm">www.peacemagazine.org/covers.htm</a>. Below each cover thumbnail is a link to the article index for that issue.</p>
+
+<p class="published">Updated 30 September 2015</p>
+</div></div><div id="Frame2"><p><a href="/archive/index.php?id=2425">Visit the current issue's online table of contents page</a><br/><br/><a href="http://www.peacemagazine.org/graphics/covers/v31n4.jpg"><img src="http://www.peacemagazine.org/graphics/covers/v31n4-tn.jpg" alt="Cover of Jul-Sep 2015 issue" class="cover"/></a></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="Frame3">
+<img alt="Peace Mag masthead" src="/archive/images/116.png" style="border:0" class="masthead" />
+
+<p><br /><a href="http://peacemagazine.org/">Home</a><span class="big"> :</span></p>
+<p><a href="http://peacemagazine.org/archive/index.php?id=2425">Oct-Dec 2015 issue</a><span class="big"> :</span><br />
+<p><a href="http://peacemagazine.org/archive/index.php?id=2412">Jul-Sep 2015 issue</a><span class="big"> :</span><br />
+<a href="http://peacemagazine.org/archive/index.php?id=2397">Apr-Jun 2015 issue</a><span class="big"> :</span><br />
+<a href="http://peacemagazine.org/archive/index.php?id=2384">Jan-Mar 2015 issue</a><span class="big"> :</span></p>
+
+<p>Earlier issues<span class="big"> :</span></p>
+<p><a href="http://peacemagazine.org/archive/?id=2103">1985-2014</a><span class="big"> :</span></p>
+<p><a href="http://tpc.peacemagazine.org/">1983-1984</a><span class="big"> :</span></p><br />
+
+<p><a id="search"></a>
+<!-- <form action="http://peacemagazine.org/archive/search.php">
+<input size="15" name="search" type="text">
+</form>
+-->
+<object>
+<label for="searchterm">Search</label>
+<form action="http://www.peacemagazine.org/index.php">
+<fieldset>
+<input type="text" size="15" name="q" alt="enter search term" id="searchterm" />
+</fieldset>
+</form>
+</object> 
+</p>
+<br />
+<p><a href="http://peacemagazine.org/archive/index.php?id=2265">Subscribe online</a></p>
+<p><a href="http://peacemagazine.org/archive/index.php?id=2221">Renew online</a></p>
+<p><a href="http://peacemagazine.org/archive/index.php?id=2264">Order a gift subscription</a><span class="big"> :</span></p>
+<p><a href="http://peacemagazine.org/archive/index.php?id=2309">Change-of-address form</a><span class="big"> :</span></p>
+
+<p><a href="http://peacemagazine.org/info.htm">Contact page / About Peace Mag</a><span class="big"> :</span></p>
+
+<p><a href="http://peacemagazine.org/policies.html">Privacy, copyright, and reprints</a><span class="big"> :</span></p>
+
+<p><a href="http://peacemagazine.org/guidelines.htm">Writers' guidelines</a><span class="big"> :</span></p>
+
+<p><a href="./index.php?s=file_download&amp;id=2">Advertising ratecard</a><span class="big"> :</span></p>
+<br />
+<p>Email the office at <a href="mailto:office@peacemagazine.org">office<br />
+@peacemagazine.org</a><span class="big"> :</span></p>
+
+<p><a href="http://peacemagazine.org/covers.htm">Cover gallery</a><span class="big"> :</span></p>
+
+<p><a href="http://peacemagazine.org/198.htm">198 methods of nonviolent action by Gene Sharp</a><span class="big"> :</span></p>
+
+<p> <a href="http://peacemagazine.org/archive/?id=2153"><em>Disarmament Campaigns</em> archive</a><span class="big"> :</span></p>
+
+<p>Link to <a href="http://peacemagazine.org/pmlinks.htm" target="_new">other peace and disarmament websites</a><span class="big"> :</span></p>
+
+<p><b>Peace Crossword</b> <a href="http://peacemagazine.org/xword.htm">playable version here</a><span class="big"> :</span></p>
+<br />
+<p><a href="http://www.facebook.com/pages/Peace-Magazine/224393994267274"><img src="/archive/images/facebook.png" alt="Follow Peace Magazine on Facebook" style="border: medium none;"></a> <a href="http://twitter.com/#!/Peace_Mag"><img src="/archive/images/twitter.png" alt="Follow Peace Magazine on Twitter" style="border: medium none;"></a></p>
+
+
+
+</div>
+
+</body>
+</html>
+

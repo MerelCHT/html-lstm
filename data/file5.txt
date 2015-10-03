@@ -1,0 +1,1904 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl">
+<head><style type="text/css">.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{min-height:0}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default!important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-autocomplete{position:absolute;top:0;left:0;cursor:default;z-index:1500}.ui-menu{list-style:none;padding:2px;margin:0;display:block;outline:none}.ui-menu .ui-menu{margin-top:-3px;position:absolute}.ui-menu .ui-menu-item{margin:0;padding:0;width:100%;list-style-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)}.ui-menu .ui-menu-divider{margin:5px -2px 5px -2px;height:0;font-size:0;line-height:0;border-width:1px 0 0 0}.ui-menu .ui-menu-item a{text-decoration:none;display:block;padding:2px .4em;line-height:1.5;min-height:0;font-weight:normal}.ui-menu .ui-menu-item a.ui-state-focus,.ui-menu .ui-menu-item a.ui-state-active{font-weight:normal;margin:-1px}.ui-menu .ui-state-disabled{font-weight:normal;margin:.4em 0 .2em;line-height:1.5}.ui-menu .ui-state-disabled a{cursor:default}.ui-menu-icons{position:relative}.ui-menu-icons .ui-menu-item a{position:relative;padding-left:2em}.ui-menu .ui-icon{position:absolute;top:.2em;left:.2em}.ui-menu .ui-menu-icon{position:static;float:right}.ui-widget{font-family:Verdana,Arial,sans-serif;font-size:1.1em}.ui-widget .ui-widget{font-size:1em}.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Verdana,Arial,sans-serif;font-size:1em}.ui-widget-content{border:1px solid #aaa;background:#fff;color:#222}.ui-widget-content a{color:#222}.ui-widget-header{border:1px solid #aaa;background:#ccc;color:#222;font-weight:bold}.ui-widget-header a{color:#222}.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{border:1px solid #d3d3d3;background:#e6e6e6;font-weight:normal;color:#555}.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#555;text-decoration:none}.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{border:1px solid #999;background:#dadada;font-weight:normal;color:#212121}.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited{color:#212121;text-decoration:none}.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{border:1px solid #aaa;background:#fff;font-weight:normal;color:#212121}.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#212121;text-decoration:none}.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{border:1px solid #fcefa1;background:#fbf9ee;color:#363636}.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a{color:#363636}.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{border:1px solid #cd0a0a;background:#fef1ec;color:#cd0a0a}.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{color:#cd0a0a}.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{color:#cd0a0a}.ui-priority-primary,.ui-widget-content .ui-priority-primary,.ui-widget-header .ui-priority-primary{font-weight:bold}.ui-priority-secondary,.ui-widget-content .ui-priority-secondary,.ui-widget-header .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal}.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled{opacity:.35;filter:Alpha(Opacity=35);background-image:none}.ui-state-disabled .ui-icon{filter:Alpha(Opacity=35)}.ui-icon{width:16px;height:16px}.ui-icon,.ui-widget-content .ui-icon{background-image:url(images/ui-icons_222222_256x240.png)}.ui-widget-header .ui-icon{background-image:url(images/ui-icons_222222_256x240.png)}.ui-state-default .ui-icon{background-image:url(images/ui-icons_888888_256x240.png)}.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{background-image:url(images/ui-icons_454545_256x240.png)}.ui-state-active .ui-icon{background-image:url(images/ui-icons_454545_256x240.png)}.ui-state-highlight .ui-icon{background-image:url(images/ui-icons_2e83ff_256x240.png)}.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url(images/ui-icons_cd0a0a_256x240.png)}.ui-icon-blank{background-position:16px 16px}.ui-icon-carat-1-n{background-position:0 0}.ui-icon-carat-1-ne{background-position:-16px 0}.ui-icon-carat-1-e{background-position:-32px 0}.ui-icon-carat-1-se{background-position:-48px 0}.ui-icon-carat-1-s{background-position:-64px 0}.ui-icon-carat-1-sw{background-position:-80px 0}.ui-icon-carat-1-w{background-position:-96px 0}.ui-icon-carat-1-nw{background-position:-112px 0}.ui-icon-carat-2-n-s{background-position:-128px 0}.ui-icon-carat-2-e-w{background-position:-144px 0}.ui-icon-triangle-1-n{background-position:0 -16px}.ui-icon-triangle-1-ne{background-position:-16px -16px}.ui-icon-triangle-1-e{background-position:-32px -16px}.ui-icon-triangle-1-se{background-position:-48px -16px}.ui-icon-triangle-1-s{background-position:-64px -16px}.ui-icon-triangle-1-sw{background-position:-80px -16px}.ui-icon-triangle-1-w{background-position:-96px -16px}.ui-icon-triangle-1-nw{background-position:-112px -16px}.ui-icon-triangle-2-n-s{background-position:-128px -16px}.ui-icon-triangle-2-e-w{background-position:-144px -16px}.ui-icon-arrow-1-n{background-position:0 -32px}.ui-icon-arrow-1-ne{background-position:-16px -32px}.ui-icon-arrow-1-e{background-position:-32px -32px}.ui-icon-arrow-1-se{background-position:-48px -32px}.ui-icon-arrow-1-s{background-position:-64px -32px}.ui-icon-arrow-1-sw{background-position:-80px -32px}.ui-icon-arrow-1-w{background-position:-96px -32px}.ui-icon-arrow-1-nw{background-position:-112px -32px}.ui-icon-arrow-2-n-s{background-position:-128px -32px}.ui-icon-arrow-2-ne-sw{background-position:-144px -32px}.ui-icon-arrow-2-e-w{background-position:-160px -32px}.ui-icon-arrow-2-se-nw{background-position:-176px -32px}.ui-icon-arrowstop-1-n{background-position:-192px -32px}.ui-icon-arrowstop-1-e{background-position:-208px -32px}.ui-icon-arrowstop-1-s{background-position:-224px -32px}.ui-icon-arrowstop-1-w{background-position:-240px -32px}.ui-icon-arrowthick-1-n{background-position:0 -48px}.ui-icon-arrowthick-1-ne{background-position:-16px -48px}.ui-icon-arrowthick-1-e{background-position:-32px -48px}.ui-icon-arrowthick-1-se{background-position:-48px -48px}.ui-icon-arrowthick-1-s{background-position:-64px -48px}.ui-icon-arrowthick-1-sw{background-position:-80px -48px}.ui-icon-arrowthick-1-w{background-position:-96px -48px}.ui-icon-arrowthick-1-nw{background-position:-112px -48px}.ui-icon-arrowthick-2-n-s{background-position:-128px -48px}.ui-icon-arrowthick-2-ne-sw{background-position:-144px -48px}.ui-icon-arrowthick-2-e-w{background-position:-160px -48px}.ui-icon-arrowthick-2-se-nw{background-position:-176px -48px}.ui-icon-arrowthickstop-1-n{background-position:-192px -48px}.ui-icon-arrowthickstop-1-e{background-position:-208px -48px}.ui-icon-arrowthickstop-1-s{background-position:-224px -48px}.ui-icon-arrowthickstop-1-w{background-position:-240px -48px}.ui-icon-arrowreturnthick-1-w{background-position:0 -64px}.ui-icon-arrowreturnthick-1-n{background-position:-16px -64px}.ui-icon-arrowreturnthick-1-e{background-position:-32px -64px}.ui-icon-arrowreturnthick-1-s{background-position:-48px -64px}.ui-icon-arrowreturn-1-w{background-position:-64px -64px}.ui-icon-arrowreturn-1-n{background-position:-80px -64px}.ui-icon-arrowreturn-1-e{background-position:-96px -64px}.ui-icon-arrowreturn-1-s{background-position:-112px -64px}.ui-icon-arrowrefresh-1-w{background-position:-128px -64px}.ui-icon-arrowrefresh-1-n{background-position:-144px -64px}.ui-icon-arrowrefresh-1-e{background-position:-160px -64px}.ui-icon-arrowrefresh-1-s{background-position:-176px -64px}.ui-icon-arrow-4{background-position:0 -80px}.ui-icon-arrow-4-diag{background-position:-16px -80px}.ui-icon-extlink{background-position:-32px -80px}.ui-icon-newwin{background-position:-48px -80px}.ui-icon-refresh{background-position:-64px -80px}.ui-icon-shuffle{background-position:-80px -80px}.ui-icon-transfer-e-w{background-position:-96px -80px}.ui-icon-transferthick-e-w{background-position:-112px -80px}.ui-icon-folder-collapsed{background-position:0 -96px}.ui-icon-folder-open{background-position:-16px -96px}.ui-icon-document{background-position:-32px -96px}.ui-icon-document-b{background-position:-48px -96px}.ui-icon-note{background-position:-64px -96px}.ui-icon-mail-closed{background-position:-80px -96px}.ui-icon-mail-open{background-position:-96px -96px}.ui-icon-suitcase{background-position:-112px -96px}.ui-icon-comment{background-position:-128px -96px}.ui-icon-person{background-position:-144px -96px}.ui-icon-print{background-position:-160px -96px}.ui-icon-trash{background-position:-176px -96px}.ui-icon-locked{background-position:-192px -96px}.ui-icon-unlocked{background-position:-208px -96px}.ui-icon-bookmark{background-position:-224px -96px}.ui-icon-tag{background-position:-240px -96px}.ui-icon-home{background-position:0 -112px}.ui-icon-flag{background-position:-16px -112px}.ui-icon-calendar{background-position:-32px -112px}.ui-icon-cart{background-position:-48px -112px}.ui-icon-pencil{background-position:-64px -112px}.ui-icon-clock{background-position:-80px -112px}.ui-icon-disk{background-position:-96px -112px}.ui-icon-calculator{background-position:-112px -112px}.ui-icon-zoomin{background-position:-128px -112px}.ui-icon-zoomout{background-position:-144px -112px}.ui-icon-search{background-position:-160px -112px}.ui-icon-wrench{background-position:-176px -112px}.ui-icon-gear{background-position:-192px -112px}.ui-icon-heart{background-position:-208px -112px}.ui-icon-star{background-position:-224px -112px}.ui-icon-link{background-position:-240px -112px}.ui-icon-cancel{background-position:0 -128px}.ui-icon-plus{background-position:-16px -128px}.ui-icon-plusthick{background-position:-32px -128px}.ui-icon-minus{background-position:-48px -128px}.ui-icon-minusthick{background-position:-64px -128px}.ui-icon-close{background-position:-80px -128px}.ui-icon-closethick{background-position:-96px -128px}.ui-icon-key{background-position:-112px -128px}.ui-icon-lightbulb{background-position:-128px -128px}.ui-icon-scissors{background-position:-144px -128px}.ui-icon-clipboard{background-position:-160px -128px}.ui-icon-copy{background-position:-176px -128px}.ui-icon-contact{background-position:-192px -128px}.ui-icon-image{background-position:-208px -128px}.ui-icon-video{background-position:-224px -128px}.ui-icon-script{background-position:-240px -128px}.ui-icon-alert{background-position:0 -144px}.ui-icon-info{background-position:-16px -144px}.ui-icon-notice{background-position:-32px -144px}.ui-icon-help{background-position:-48px -144px}.ui-icon-check{background-position:-64px -144px}.ui-icon-bullet{background-position:-80px -144px}.ui-icon-radio-on{background-position:-96px -144px}.ui-icon-radio-off{background-position:-112px -144px}.ui-icon-pin-w{background-position:-128px -144px}.ui-icon-pin-s{background-position:-144px -144px}.ui-icon-play{background-position:0 -160px}.ui-icon-pause{background-position:-16px -160px}.ui-icon-seek-next{background-position:-32px -160px}.ui-icon-seek-prev{background-position:-48px -160px}.ui-icon-seek-end{background-position:-64px -160px}.ui-icon-seek-start{background-position:-80px -160px}.ui-icon-seek-first{background-position:-80px -160px}.ui-icon-stop{background-position:-96px -160px}.ui-icon-eject{background-position:-112px -160px}.ui-icon-volume-off{background-position:-128px -160px}.ui-icon-volume-on{background-position:-144px -160px}.ui-icon-power{background-position:0 -176px}.ui-icon-signal-diag{background-position:-16px -176px}.ui-icon-signal{background-position:-32px -176px}.ui-icon-battery-0{background-position:-48px -176px}.ui-icon-battery-1{background-position:-64px -176px}.ui-icon-battery-2{background-position:-80px -176px}.ui-icon-battery-3{background-position:-96px -176px}.ui-icon-circle-plus{background-position:0 -192px}.ui-icon-circle-minus{background-position:-16px -192px}.ui-icon-circle-close{background-position:-32px -192px}.ui-icon-circle-triangle-e{background-position:-48px -192px}.ui-icon-circle-triangle-s{background-position:-64px -192px}.ui-icon-circle-triangle-w{background-position:-80px -192px}.ui-icon-circle-triangle-n{background-position:-96px -192px}.ui-icon-circle-arrow-e{background-position:-112px -192px}.ui-icon-circle-arrow-s{background-position:-128px -192px}.ui-icon-circle-arrow-w{background-position:-144px -192px}.ui-icon-circle-arrow-n{background-position:-160px -192px}.ui-icon-circle-zoomin{background-position:-176px -192px}.ui-icon-circle-zoomout{background-position:-192px -192px}.ui-icon-circle-check{background-position:-208px -192px}.ui-icon-circlesmall-plus{background-position:0 -208px}.ui-icon-circlesmall-minus{background-position:-16px -208px}.ui-icon-circlesmall-close{background-position:-32px -208px}.ui-icon-squaresmall-plus{background-position:-48px -208px}.ui-icon-squaresmall-minus{background-position:-64px -208px}.ui-icon-squaresmall-close{background-position:-80px -208px}.ui-icon-grip-dotted-vertical{background-position:0 -224px}.ui-icon-grip-dotted-horizontal{background-position:-16px -224px}.ui-icon-grip-solid-vertical{background-position:-32px -224px}.ui-icon-grip-solid-horizontal{background-position:-48px -224px}.ui-icon-gripsmall-diagonal-se{background-position:-64px -224px}.ui-icon-grip-diagonal-se{background-position:-80px -224px}.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl{border-top-left-radius:4px}.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr{border-top-right-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl{border-bottom-left-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{border-bottom-right-radius:4px}.ui-widget-overlay{background:#aaa;opacity:.3;filter:Alpha(Opacity=30)}.ui-widget-shadow{margin:-8px 0 0 -8px;padding:8px;background:#aaa;opacity:.3;filter:Alpha(Opacity=30);border-radius:8px}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}html{height:100%}body{font:11px Arial,Helvetica,sans-serif;color:#333;height:100%;min-width:1180px;background:#fff}.small-page{min-width:980px}a{color:#060;text-decoration:underline;cursor:pointer}a:hover{text-decoration:none}.skip a{position:absolute;left:-10000px;top:auto;width:1px;overflow:hidden}.skip a:focus{position:static;width:auto;height:auto}.hidden{display:none}input,select,textarea{color:#333;font:11px Arial,Helvetica,sans-serif;vertical-align:middle}input[type="submit"]:hover{cursor:pointer}img{vertical-align:top}#wrapper{width:100%;overflow:hidden;position:relative;height:100%;display:table}* html #wrapper{overflow:visible;height:100%}.small-page #wrapper{}.page{width:100%;background:url(/images/bg-nav-holder.gif) repeat-x 0 74px}.content-holder{width:1168px;margin:0 auto}.small-page .content-holder{width:952px}#header{width:100%;overflow:hidden;padding:7px 0}.logo{float:left;background:url(/images/logo2.jpg) no-repeat;width:237px;height:37px;text-indent:-9999px;overflow:hidden;margin:13px 221px 0 5px;display:inline}* html .logo{margin-right:218px}.logo a{display:block;height:100%}#header .ads{overflow:hidden;height:60px}#header .turbo{overflow:hidden;height:60px}.nav-holder{background:#007900 url(/images/bg-nav-holder.gif) repeat-x 0 100%;width:100%;margin:0 0 10px;position:relative;z-index:10}.nav-holder .holder{background:url(/images/bg-nav-holder-c.gif) no-repeat 50% 100%;width:100%;margin:0 -45px;padding:0 45px;position:relative}.nav-holder .holder:after{display:block;clear:both;content:""}.small-page .nav-holder .holder{background:url(/images/bg-nav-holder-c2.gif) no-repeat 50% 100%}#nav{float:left;font-size:13px;line-height:30px;font-weight:bold;margin:0 -34px 0 -12px;display:inline}#nav li{float:left;position:relative}#nav li a{float:left;color:#fff;text-decoration:none;padding:0 0 0 12px;background:url(/images/bg-nav-hover.gif) no-repeat 0 -9999px}#nav li a span{float:left;padding:0 12px 0 0;background:url(/images/bg-nav-hover.gif) no-repeat 100% -9999px}#nav li a:hover,#nav li.active a,#nav li:hover a{background-position:0 0}#nav li a:hover span,#nav li:hover a span,#nav li.active a span{background-position:100% 0}#nav li .drop{position:absolute;top:100%;left:-5px;width:472px;background:url(/images/bg-drop.png) no-repeat 0 100%;padding:0 0 25px;display:none}#nav li .drop .drop-holder{overflow:hidden;background:url(/images/bg-drop.png) repeat-y -472px 0;padding:10px 1px 0 24px}#nav li .drop .col{float:left;width:148px;font-size:12px;line-height:20px;margin:0 0 -20px}#nav li .drop .col li{float:none}#nav li .drop .col li:after{display:block;clear:both;content:""}#nav li .drop .col li a{color:#333;font-weight:normal;padding:0;background:none}#nav li .drop .col ul{margin:0 0 20px}#nav li .drop .ttl{display:block}#nav li .drop .col li a:hover{color:#fff;text-decoration:none;background:#325099;padding:0 5px;margin:0 -5px}#nav li:hover .drop{display:block}.search{float:right;padding:5px 0 0;margin:0 0 0 -30px}.search fieldset{float:left}.search .text{float:left;background:url(/images/bg-text.gif) no-repeat;width:174px;height:19px;margin:0 8px 0 0;overflow:hidden}.small-page .search .text{background-position:0 -45px;width:93px;margin-top:2px}.search .text input{float:left;background:none;border:0;padding:2px 7px;width:160px;height:15px;line-height:15px;margin:0}.small-page .search .text input{width:79px}.btn-search{background:url(/images/btn-search.gif) no-repeat;width:50px;height:19px;text-indent:-9999px;overflow:hidden;font-size:0;line-height:0;cursor:pointer;margin:0;border:0;float:left}.small-page .btn-search{background-position:0 -54px;width:58px;height:21px}#main{width:100%;padding:0 0 25px}#main:after{content:"";clear:both;display:block}#main-content{float:left;width:1013px}#main-content-wide{}.small-page #main-content{width:800px}#twocolumns{width:901px;float:right}.small-page #twocolumns{width:685px}#content{float:right;width:550px;margin:0 0 0 15px}#content-wide{float:right;width:690px;margin:0 0 0 15px}#twocolumns-wide{width:1052px;float:right}.small-page #twocolumns-wide{width:850px}.mid-page #twocolumns-wide{width:890px}#content{float:right;width:550px;margin:0 0 0 15px}.map-box{overflow:hidden;width:100%;margin:0 0 15px;background:#f5f6f7;padding:5px 0 0}.tabset{overflow:hidden;width:100%;line-height:26px;font-size:12px;font-weight:bold}.tabset li{float:left;margin:0 3px 0 0}.tabset a{float:left;background:#8a989f url(/images/bg-tabset.gif) no-repeat 0 -28px;padding:0 0 0 9px;color:#fff;text-decoration:none}.tabset a span{float:left;padding:0 10px 0 0;background:url(/images/bg-tabset.gif) no-repeat 100% -28px}.tabset a:hover{background-position:0 -57px}.tabset a:hover span{background-position:100% -57px}.tabset .active a{background-position:0 0}.tabset .active a span{background-position:100% 0}.map-holder{overflow:hidden;width:100%}.two-box{overflow:hidden;width:100%;margin:0 0 15px}.weather-box{float:left;width:238px;margin:0 12px 0 0}.search-weather{overflow:hidden;background:#c7ced1;padding:5px;height:1%}.search-weather .text{float:left;background:url(/images/bg-text.gif) no-repeat 0 -20px;width:165px;height:21px}.search-weather .text input{float:left;width:151px;padding:3px 7px;background:none;border:0;line-height:15px;height:15px;margin:0}.search-weather .btn-search,.main-search .btn-search{float:right;width:58px;height:21px;background-position:0 -24px}.main-search .btn-search{margin:0 -3px 0 0}.weather-box .title{display:block;padding:3px 5px;color:#334792;font-weight:bold;line-height:15px;font-size:13px}.weather{background:url(/images/bg-weather.gif);overflow:hidden;width:100%}.weather ul{overflow:hidden;width:101%;margin:0 -1px 0 0;background:url(/images/bg-weather-list.gif)}.weather ul li{float:left;width:46px;text-align:center;color:#2f3b42;font-weight:bold;font-size:12px;line-height:22px;margin:0 1px 0 0}.weather ul li img{float:left}.weather ul li.mark{width:48px}.weather .day{background:url(/images/bg-weather-day.gif)}.weather .day li{text-indent:5px;text-align:left}.weather ul li span{color:#999}.weather .weather-img-list{background:url(/images/bg-img-list.gif)}.title-section{display:block;padding:0 5px;line-height:20px;color:#666}.ads-holder{float:right}.weather-table table{border-collapse:collapse;width:100%;color:#1e3789;line-height:19px}.weather-table table th{background:#f5f6f7;text-align:left;padding:0 0 0 10px;line-height:31px;font-weight:bold}.weather-table table td{padding:0 0 0 10px;line-height:30px}.weather-table table a{color:#1f3786}.weather-table .mark td{background:#f5f6f7}.weather-table tr:hover td{background:#5d7079;color:#fff}.weather-table tr:hover a{color:#fff;text-decoration:none}.news-column{float:left;width:336px;margin:0 0 -15px;overflow:hidden}.small-page .news-column{width:120px}.news-column .ads2{margin:0 0 14px}.heading{overflow:hidden;padding:6px 7px 7px 6px;height:1%;background:#f5f6f7;margin:0 0 8px}.twitter-link{float:right;color:#fff;background:url(/images/ico-social.gif) no-repeat 100% -17px;padding:0 25px 0 0;line-height:16px;font-weight:bold;text-decoration:none;height:16px}.twitter-link:hover{text-decoration:none}.news-column h2,#content .box h2{color:#1e3689;font-size:13px;line-height:16px;font-weight:bold;margin:0}.news-column .box{width:100%;margin:0 0 15px;padding:0 0 10px}.news-list{overflow:hidden;height:1%;padding:0 0;line-height:16px}.small-page .news-list{margin-bottom:8px}.news-list li{border-top:1px solid #ececec;padding:6px 0;margin:-1px 0 1px;width:100%;vertical-align:top}.small-page .news-list li{border-bottom:1px solid #ececec;padding-bottom:12px}.news-list li:after{content:"";clear:both;display:block}.news-list ul{overflow:hidden;width:100%}.news-list2 li{padding:2px 0 1px;border:0}.news-list ul li{float:left;padding:0 6px!important;background:url(/images/separator-news.gif) no-repeat 0 50%;margin:0 6px 0 -6px;display:inline;width:auto;border:0}.news-list ul li a{color:#1e3789;text-decoration:none}.news-list ul li a:hover{text-decoration:underline}.news-list li .name{color:#39c}.news-list li .img{float:left;margin:3px 2px 0 -5px;background:url(/images/bg-img.png) no-repeat;padding:2px 9px 10px 3px;position:relative}* html .news-list li .img{margin-right:-1px}.news-list li .holder{overflow:hidden;height:1%}.more-twitter{color:#666;text-decoration:none;font-weight:bold;display:inline-block;vertical-align:top;margin:1px 0 9px 13px}.news-list li h3{font-weight:bold;margin:0 0 2px}.news-list li h3 a{color:#1e3789;text-decoration:none}.news-list li h3 a:hover{text-decoration:underline}.rss-link{background:url(/images/ico-social.gif) no-repeat;width:16px;height:16px;float:right;text-indent:-9999px;overflow:hidden}.video-list{overflow:hidden;width:105%;margin:0 -5% -9px 0}.video-list li{float:left;background:url(/images/bg-img2.png) no-repeat;padding:2px 9px 10px 3px;margin:2px -6px 0 8px;display:inline}.video-list li a{position:relative}#testclass{float:left}#sidebar{float:left;width:107px;margin:0 0 0 -10px;position:relative;line-height:16px}.lang-holder{overflow:hidden;margin:0 0 13px;width:100%}.lang-holder ul{}.lang-holder ul li{float:left;margin:0 0 0 4px;display:inline;text-align:left}.lang-holder ul li img{vertical-align:top}.lang-holder ul .phone{background:url(/images/ico-phone.gif) no-repeat;width:7px;height:13px;text-indent:-9999px;overflow:hidden;display:block}#sidebar h3{color:#060;font-size:14px;line-height:17px;font-weight:bold}#sidebar h4{color:#263b85;font-size:12px;line-height:15px;font-weight:bold}#sidebar .list a{color:#333;text-decoration:none}#sidebar .list a:hover{text-decoration:none;color:#f60}#sidebar .time-list li{display:inline-block;width:30px;vertical-align:top}* html #sidebar .time-list li{display:inline;margin-left:4px}*+html #sidebar .time-list li{display:inline;margin-left:4px}#sidebar .time-list li a{color:#009;text-decoration:underline}#sidebar .time-list li a:hover{text-decoration:none}a.more{color:#060!important;text-decoration:underline!important}a.more:hover{text-decoration:none!important}#sidebar .block{margin:0 0 17px;width:100%}.aside{float:right;width:140px;font-size:12px;line-height:16px}.aside p strong{font-weight:bold}.aside p .mark{color:#5e7079}.aside p .mark a{color:#5e7079}.aside h3{color:#263b85;font-size:12px;line-height:15px;font-weight:bold;margin:0 0 5px}.aside p{margin:0 0 5px}.aside .mobi{margin:0 0 13px}.aside .block{margin:0 0 17px}.aside .text-block{margin:0 0 20px}.ads-col{float:left;width:120px}.inner-page #content{width:767px;margin:0;padding:8px 0 0}#content h2{color:#1d3689;font-size:18px;line-height:21px;font-weight:bold;margin:0 0 7px}.breadcrumbs-holder{overflow:hidden;width:100%;margin:0 0 13px}.breadcrumbs-holder .link{float:right;font-weight:bold}.breadcrumbs{overflow:hidden;height:1%}.breadcrumbs li{float:left;background:url(/images/separator-breadcrumbs.gif) no-repeat 0 50%;padding:0 5px 0 12px;margin:0 12px 0 -12px;display:inline;color:#ccc}.breadcrumbs li a{color:#ccc;text-decoration:underline}.breadcrumbs li a:hover{text-decoration:none}.select-box{background:url(/images/bg-select-box.gif) no-repeat;overflow:hidden;height:1%;margin:0 0 15px}.select-form{padding:13px 16px;overflow:hidden;height:22px}.select-form label{float:left;font-weight:bold;font-size:13px;line-height:22px;margin:0 8px 0 0}.select-form select{float:left;margin:1px 5px 0 0;font-size:12px;width:44px}.select-form .check{float:left;width:15px;height:15px;margin:3px 5px 0 0;padding:0}.select-form .btn-submit{float:right;background:url(/images/btn-search.gif) no-repeat 0 -83px;width:63px;height:22px;overflow:hidden;text-indent:-9999px;font-size:0;line-height:0;border:0;cursor:pointer}.select-form .sel{width:136px}.select-form .sel2{width:84px}.select-form .sel3{width:55px}.img-map img{display:block}.news-cols{overflow:hidden;width:105%;margin:0 -5% 0 0;background:url(/images/bg-news-cols.gif) repeat-y}.news-cols .box{float:left;width:373px;margin:0 15px 0 0;background:#f5f6f7}.news-cols .box2{width:378px}.news-cols .box .more{display:inline-block;margin:1px 0 9px 13px;text-decoration:none;vertical-align:top}.news-cols .news-list li .img{margin:3px 2px 0 -2px}* html .news-cols .news-list li .img{margin-right:-1px}.news-cols .news-list li .holder{padding-right:30px}.news-cols .box2 .news-list li{margin:0 0 4px}a.more-histories{color:#f60!important}#footer{display:table-footer-group;height:1%;width:100%}.footer-holder{width:1168px;margin:0 auto;overflow:hidden;padding:0 0 10px}.small-page .footer-holder{width:952px}.footer-nav{overflow:hidden;width:100%;background:#f1f2f3;padding:16px 0 30px}.footer-nav .col{float:left;width:163px;margin:0 0 0 24px;display:inline;line-height:16px}.small-page .footer-nav .col{margin:0 0 0 15px;width:134px}.footer-nav .title{display:block;background:url(/images/bg-title.gif) no-repeat 0 100%;color:#263b85;font-weight:bold;font-size:12px;line-height:15px;padding:0 0 6px;margin:0 0 5px}.footer-nav ul a{color:#333;text-decoration:none}.footer-nav ul a.more{color:#060!important;text-decoration:underline}.footer-nav ul a.more:hover{text-decoration:none}.footer-nav ul li{width:100%;vertical-align:top}.footer-nav ul a img{display:block;padding:5px 0 8px}.footer-nav ul a:hover{text-decoration:underline;color:#007900}#footer .copy{text-align:center;background:#5f707a;padding:0 10px 3px;color:#ececec;line-height:28px}.inner-page2 #main-content{width:100%}.inner-page2 #twocolumns{width:1056px}.inner-page2 #content{width:707px;margin:0}.news-list2{overflow:hidden;margin:0;padding:0 0;line-height:22px}.news-list2 dt{float:left;text-align:right;padding:0 5px 0 0;color:#060}.news-list2 dd{margin:0;overflow:hidden}.news-column .search-map{padding:0}.news-column .search-weather .row{overflow:hidden;margin:0 0 5px;width:100%}.news-column .search-map .search-weather{padding:10px 8px 5px}.news-column .search-weather select{width:100%;display:block;margin:0;color:#333}.news-column .search-weather .text{background-position:0 -70px;width:258px}.news-column .search-weather .text input{width:244px;color:#333}#content .mobi{float:right;margin:0 14px 0 0}#content h2 a{color:#999;text-decoration:none;font-size:14px;line-height:18px}#content h2 a:hover{color:#f60}.tabset2 li{font-size:14px;line-height:26px;margin:0 5px 0 0}.tabset2 li.active a{background-position:0 -86px;color:#1d3689}.tabset2 li.active a span{background-position:100% -86px}.tabset2 li a:hover{background-position:0 -116px;color:#fff}.tabset2 li a:hover span{background-position:100% -116px}.content{overflow:hidden;padding:22px 17px 15px;background:#f5f6f7}.heading-box{overflow:hidden;padding:0 0 9px}.content .heading-box h3{color:#060;font-size:14px;line-height:17px;font-weight:bold;margin:0}.heading-box .time{float:right;margin:2px 4px 0 0}.table-content{overflow:hidden;margin:20px 0 0}.table-heading{overflow:hidden;background:#e7eaec;margin:0 0 2px;padding:13px 17px}.table-heading .date{color:#1d3689;font-size:18px;line-height:21px;font-weight:bold;float:left;margin:0 44px 0 0}.table-heading .date span{color:#8a989f}.table-heading .temp{float:left;font-size:16px;line-height:21px;font-weight:bold}#content .time-list{float:right;font-weight:bold}#content .time-list li{float:left;padding:0 0 0 30px;line-height:21px;margin:0 0 0 15px;font-size:12px}#content .time-list li.link01{background:url(/images/bg-time-list.gif) no-repeat}#content .time-list li.link02{background:url(/images/bg-time-list.gif) no-repeat 0 -21px}.table-content table{width:100%;color:#242424;font-size:16px;line-height:20px;font-weight:bold;background:#e7eaec}.table-content table tr:first-child td{font-size:12px;line-height:16px;border-top:0;letter-spacing:0;padding:8px 6px}.table-content table th{width:142px;padding:0 10px 0 0;font-size:12px;line-height:16px;font-weight:normal;text-align:right;color:#333;vertical-align:middle}.table-content-single .table-content table th{width:auto;text-align:center;padding:6px 10px}.table-content-single .table-content table tr:first-child td{font-size:18px;line-height:21px;vertical-align:top}.table-content-single .table-content table tr:first-child td span{font-weight:normal;display:block;font-size:12px;line-height:16px;padding:0 0 11px}.table-content-single .table-content table th img{vertical-align:top}.table-content table td{border:2px solid #f5f6f7;border-width:2px 0 0 2px;padding:9px 6px 10px}.table-content table td img{display:block;margin:0 auto}.table-content table td span{font-size:12px}.inner-page2 #content h2{margin:7px 0}.inner-page2 #content .map-box{padding-top:10px;background:none}.inner-page2 .news-column .ads2{margin:0 0 20px}.content h3,.content2 .heading-box h3{font-size:18px;line-height:21px;font-weight:bold;color:#007900;margin:0 0 18px}.content2 .heading-box h3{margin:0}.content2 .heading-box .time{margin-top:7px}.content h4{color:#324f99;font-size:14px;line-height:17px;font-weight:bold;margin:0 0 11px}.content .heading-box h4{margin:3px 0 0}.content2 h4{color:#060}.content p{margin:0 0 18px;line-height:18px;font-size:12px}.content p.mark{font-size:14px;line-height:18px;margin:0 0 12px}.content .section{margin:0 0 17px;overflow:hidden}.content .description{display:block;text-align:right;font-size:11px;line-height:14px}.content .area{display:block;border:1px solid #e3e3eb;border-top:1px solid #aaadb4;width:656px!important;height:46px!important;padding:6px;overflow:auto;color:#000;font-size:12px;line-height:14px}.content .img-box img{display:block;margin:0 0 8px}.content .img-box{width:670px}.content .note{color:#c00}.content .weather-block{overflow:hidden;margin:-3px 4px 31px 0}.description-list{float:left;overflow:hidden;width:245px;font-size:12px;line-height:23px;padding:16px 0 0}.description-list dt{float:left;width:138px;padding:0 10px 0 0;background:#e7eaec;text-align:right;margin:0 2px 0 0}.description-list dd{background:#e7eaec;overflow:hidden;padding:0 0 0 10px;font-weight:bold;margin:0 0 2px}.content .weather-block .weather-img{float:right;clear:right;margin:2px 83px 10px 0}.social-like-list{float:right;clear:right;margin:0 0 0 -30px}.social-like-list li{float:left;margin:0 0 0 12px}.social-like-list li img{vertical-align:top}.temperature-table{border-collapse:collapse;width:100%;font-size:12px;line-height:30px}.temperature-table th{width:232px;padding:0 0 0 18px;background:#e7eaec;text-align:left}.temperature-table td{border-left:2px solid #f5f6f7;padding:0 0 0 18px;font-weight:bold;background:#e7eaec}.temperature-table .mark th,.temperature-table .mark td{background:#f5f6f7}.main-search{background:#f5f6f7;padding:10px 10px 6px;overflow:hidden;width:668px}.main-search h3{color:#007900;font-size:14px;line-height:18px;font-weight:bold;float:left}.main-search .heading-box{overflow:hidden;padding:0 0 5px}.main-search .close{float:right;color:#c00;text-decoration:underline;font-size:11px;line-height:14px}.main-search .close:hover{text-decoration:none}.main-search .row{background:url(/images/bg-main-search.gif) no-repeat;width:644px;height:23px;padding:9px 15px;margin:0 -10px 0 -3px;font-size:13px}.main-search label{float:left;margin:0 5px 0 0;line-height:21px;font-weight:bold}.main-search .text-of{line-height:21px;font-weight:bold;float:left;padding:0 11px}.main-search select{float:left;width:234px;font-size:11px;padding:3px 0;line-height:14px;margin:0}.main-search .text{background:url(/images/bg-text.gif) no-repeat 0 -100px;width:266px;height:23px;float:left}.main-search .text input{float:left;padding:4px 10px;width:246px;height:14px;line-height:14px;border:0;background:none}#sidebarcontainerWeatherinfo{position:relative;top:145px}#weatherinfo{margin-top:145px}.fs_name{width:130px;display:inline-block}.fs_straat{width:140px;display:inline-block;overflow-y:hidden;overflow-x:hidden}.fs_plaats{width:120px;display:inline-block}.fs_postcode{width:70px;display:inline-block}.fs_country{width:40px;display:inline-block}.fs_gps{width:20px;display:inline-block;text-align:right}.fs_head{font-weight:bold;border-bottom:1px solid #555}#fs_lists{float:left;width:100%}#fs_resultset div,#mylocResultset div,.resultset div{cursor:pointer}.resultset{display:none;background-color:#fff;border:1px solid #ccc;float:left;position:absolute;padding-left:6px;z-index:1;position:absolute;top:24px;left:83px}#fs_resultset{width:191px;height:110px}#mylocResultset{width:336px;height:80px}#fs_locationlist .fs_record,#fs_locationlist .fs_record span,.locationlist .fs_record span,.locationlist .fs_record{height:20px;overflow:hidden;vertical-align:middle;-ms-text-overflow:ellipsis;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap}#fs_locationlist,.locationlist{height:90%}#fs_locationlist .fs_scrollable{overflow-y:auto;height:90px}#mylocLocationlist .fs_scrollable{overflow-y:auto;height:80px}.fs_nolocations{text-align:center;line-height:30px}.fs_hidden{display:none}#fs_locationlist a:hover,.locationlist a:hover{background-color:inherit}#fs_clear{color:#ccc;width:22px;height:25px;font-size:10px;line-height:6px;background-color:#f5f6f7;border-top-width:1px;border-left-width:0;border-bottom-width:1px;border-right-width:1px;padding-bottom:0;padding-top:0;border-style:solid;border-color:#ccc}.fs_active{background-color:#ffd800!important}.small-page .fs_zoekplaats{width:266px;position:absolute}.mid-page .fs_zoekplaats{width:286px;position:absolute}.fs_zoekplaats{width:450px;position:absolute}.fs_buttoncontainer{float:left;margin-bottom:15px}.small-page #fs_day2{border:none}.small-page #fs_day3,.small-page #fs_day4{display:none}.mid-page #fs_day1{border-right:solid;border-right-width:1px;border-color:#ccc}.mid-page #fs_day2{border:none;display:block}.fs_titleSearchbutton{float:left;font-size:14px;font-weight:bold;color:#1d3f94;margin-top:3px;height:23px;vertical-align:middle;width:80px}.fs_button{float:left}#fs_location{background-color:#f5f6f7;border-width:1px 0 1px 1px;padding-bottom:0;padding-top:0;height:23px;border-style:solid;border-color:#ccc;padding-left:6px;margin-left:3px;background-repeat:no-repeat;background-position:98% 50%;outline:0;width:331px}#fs_searchbutton{background-image:url("/Images/weerperplaats/search.png");background-repeat:no-repeat;background-position:50%;border-style:solid;border-color:#ccc;border-width:1px 1px 1px 0;height:23px;width:23px;position:relative;float:left;background-color:#f5f6f7}#fs_searchbutton:hover{cursor:pointer}.small-page #fs_location{width:125px}.mid-page #fs_location{width:165px}#fs_weatherdayContainer{float:left;margin-bottom:12px;font-family:Arial,Helvetica,sans-serif}.small-page #fs_weatherdayContainer{position:relative;left:-10px}.mid-page #fs_weatherdayContainer{position:initial;left:initial}.fs_weatherday{width:85px;height:65px;float:left;text-align:center;border-width:1px;border-style:solid;border-right:none;border-top:none;border-bottom:none;border-color:#ccc;font-size:12px}.fs_daytext{color:#058a08;font-weight:bold;font-family:inherit}.fs_mintemp{color:#9ac7e9;font-family:inherit}.fs_maxtemp{color:#000;font-family:inherit}.fs_seperator{color:#e7e7e7}.fs_weatherday.first{border:none}#fs_navigation{height:12px;width:100%;float:left;cursor:pointer}.fs_menu{float:left;font:11px;color:#1d3f94;text-decoration:underline;text-align:left;padding-left:5px;padding-right:5px;border-style:solid;border-color:#e7e7e7;border-right-width:1px;border-left:none;border-top:none;border-bottom:none}.fs_last{border:none}.fs_first{padding-left:0}#fs_menuLocatiewijzigen_small{display:none}.small-page #fs_menuLocatiewijzigen_small{display:block}#fs_menuLocatiewijzigen_large{display:block}.small-page #fs_menuLocatiewijzigen_large{display:none}#mijnbuienradar h1{font-family:inherit;font-size:18px;color:#1e3688}#mijnbuienradar h2{font-size:14px;color:#058a08;font-weight:bold}#mijnbuienradar h3{font-size:14px;font-weight:bold}#mijnbuienradar .refspotDetails{background-color:#f5f6f7;height:140px;width:350px;margin-bottom:10px;padding-top:10px;padding-left:10px}#mijnbuienradar .refSpotStandardLocButton{width:18px;height:18px}#mijnbuienradar .refspotButtonContainer{background-color:#f5f6f7;height:150px;width:20px;position:absolute}#mijnbuienradar .refSpotDeleteButton{margin-top:10px;width:18px;height:18px}#mijnbuienradar .refspotMap{margin-bottom:10px}#mijnbuienradar .menuItem{font-size:14px;font-weight:bold;color:#1e3688}#mijnbuienradar .searchlocationContainer{width:550px;background-color:#f6f6f6;padding-top:15px}#mijnbuienradar .searchlocation{width:520px;height:24px;margin-left:15px}#mijnbuienradar .mapscontainer{background-color:#f5f6f7}#mijnbuienradar .lighttext{color:#d9d9d9}#mijnbuienradar .menu .button{font-size:14px;font-weight:bold;color:#1d3f94;margin-right:5px;display:block;padding-top:5px;padding-right:15px;padding-left:15px;padding-bottom:5px;text-decoration:none;margin-right:11px;margin-bottom:0;margin-top:0;margin-left:0;border-width:1px;border-radius:5px;background-clip:padding-box;border-color:#e5060d;background-repeat:repeat-x;background-color:#f5f6f7}.buttonGreen{font-size:12px;font-weight:bold;color:#fff;margin-right:5px;display:block;padding-top:5px;padding-right:15px;padding-left:15px;padding-bottom:5px;text-decoration:none;margin-right:11px;margin-bottom:0;margin-top:0;margin-left:0;border-width:1px;background-clip:padding-box;border-color:#058a08;background-repeat:repeat-x;background-color:#058a08}#mijnbuienradar .menu .active{color:#fff;background-color:#6daedf}#mijnbuienradar #map_canvas{width:520px;height:512px;margin-left:15px}#mijnbuienradar #buttonFind{background-image:url("/Content/Images/weerperplaats/search.png");background-repeat:no-repeat;background-color:#fff;width:20px;height:20px;position:absolute;border-left:none;background-position:left 50%;border-style:none;margin-top:2px}#mijnbuienradar #textBoxLocation{color:#b2b2b2;width:310px}#mijnbuienradar #textBoxLocationTitle{vertical-align:bottom;height:30px;padding-left:15px;width:520px;float:left;display:table-cell}#mylocLists{height:100%}.mylocDeletebutton{background-image:url(images/delete.png);background-repeat:no-repeat;width:20px;height:20px}.mylocLocationsearchContainer{background-color:#f5f6f7;height:220px}.mylocLocationsearch{margin-left:20px;padding-top:25px}.greentext{color:#058a08;font-size:14px;font-weight:bold}#mylocLocationlabel{margin-bottom:18px}#mylocLocation{width:312px;height:27px;margin-bottom:10px;padding-left:6px}#mylocLocationsearchButton{height:29px;width:29px;margin-bottom:10px;border-style:solid;border-color:#ccc;border-width:1px;position:relative;left:-1px;background:url(/images/location.png) no-repeat;background-position:50%;background-color:#fff}#mylocLocationsearchButton:hover,#mylocSave:hover,#fs_menuLocatiewijzigen:hover,.mylocDeletebutton:hover{cursor:pointer}#mylocationPopup{}.mylocContainer{float:left}.ui-autocomplete{z-index:1500}.video-section{width:550px;padding:18px 0}.video-section h2,#content .video-section h2{font-size:18px;line-height:22px;font-weight:bold;color:#243486;margin:0 0 9px}.video-block{margin:0 0 28px}.video-block img{vertical-align:top}.tabset3{padding:0;margin:0;list-style:none;overflow:hidden;width:100%;font-size:12px;line-height:27px;font-weight:bold}.tabset3 li{float:left;margin:0 5px 0 0;background:url(../images/bg-tabset3.png) no-repeat 100% 0;padding:0 3px 0 0}.tabset3 .wf_active,.tabset3 li:hover{background-position:100% -53px}.tabset3 a{height:26px;float:left;color:#fff;background:url(../images/bg-tabset3.png) no-repeat 0 -26px;padding:0 14px 0 18px;text-decoration:none;overflow:hidden}.tabset3 li.wf_active a,.tabset3 li:hover a{background-position:0 -78px;color:#8b989f}.video-section .tab{background:#f5f6f7;padding:17px 0 23px 20px}.video-list2{padding:0;margin:0 0 -23px;list-style:none;font-size:12px;line-height:15px;font-weight:bold;color:#8b989f;overflow:hidden;width:100%}.video-list2 li{float:left;background:#fff;width:142px;padding:0 10px 6px;margin:0 14px 23px 0;height:150px}.video-list2 .video{margin:0 -10px 7px}.video-list2 .video img{vertical-align:top}.video-list2 h3{font-size:12px;line-height:15px;font-weight:bold;color:#253586;margin:0 0 4px}.video-list2 h3 a{color:#253586;text-decoration:none}.video-list2 h3 a:hover{text-decoration:underline}.video-list2 li p{margin:0 0 3px}hr{border:none;border-top:1px solid #e5e5e5;height:1px}h1{color:#1d3689;font-size:18px;line-height:21px;font-weight:bold;margin:0 0 7px}h3{font-size:14px;line-height:18px;font-weight:bold;margin:0 0 7px}.headinggreen{color:#058a08;font-weight:bold;font-family:inherit;font-size:13px;text-decoration:none}.avatar-subheader{position:absolute;padding:10px 0 10px 0;border-bottom:1px solid #e5e5e5;width:140px}a.headinggreen:hover{text-decoration:underline}.headingblue{overflow:hidden;background:none repeat scroll 0% 0% #1d3689;position:absolute;top:120px;width:140px;text-align:center;padding:3px 0}.headingblue h2{color:#fff;font-size:13px;line-height:16px;font-weight:bold;margin:0}.wp_block{margin:0 0 55px;position:relative;float:left}.teammember{margin:0 30px 60px 0}.wp_headingsmall{font-size:12px;font-weight:bold}.wp_profileimage{float:left;margin-right:10px}.wp-blogitemteaser{overflow:hidden;margin:20px 0}.wp-blogitemthumb{float:left;margin:0 20px 0 0}.wp-publishedinfo{color:#5e7079;font-size:11px;line-height:25px}.wp-avatar-infobox{float:left;margin:20px}.undoreset strong,.undoreset th,.undoreset b{font-weight:bold}.undoreset em,.undoreset address,.undoreset caption,.undoreset cite{font-style:italic}.undoreset p{display:block;margin:1em 0}.undoreset blockquote{display:block;margin:1em 40px}.undoreset address{display:block;font-style:italic}.undoreset center{display:block;text-align:center}.undoreset ul{display:block;list-style-type:disc;margin:1em 0;padding-left:40px}.undoreset ol{display:block;list-style-type:decimal;margin:1em 0;padding-left:40px}.undoreset li{display:list-item}div#forecastWrapper form{float:left}div#forecastContainer img{vertical-align:baseline}.title a{color:#1e3789;text-decoration:none}.title a:hover{text-decoration:underline}a.rodebalk{font-family:Arial,Verdana;font-size:13px;font-weight:700;text-decoration:underline;color:#fff}.weather .weather-img-list{background:#f5f6f7}.weather ul li{margin:0 2px 0 0}.largerfont{font-size:130%}.remark{color:#5e7079;font-size:11px;padding:0 0 10px 0}.withborder{border:1px solid #ccc}.news-list2{line-height:15px}.aside .mobi{margin:0 0 30px 0}.mobi div{float:left;width:0}.mobi span.traffic{width:46px}.mobi span{width:37px;display:block;float:left}.mobi span a{width:37px;display:block;color:gray;font-size:10px;text-decoration:none}.map-box{margin:0 0 5px}.socialbar ul{list-style-type:none;width:100%;margin-bottom:5px}.socialbar li{display:inline;margin-left:5px;margin-right:4px;vertical-align:top}.sharetext{font-weight:bold;font-size:13px;color:#263b85}.contact-label{width:150px}.contact-input input[type=text],.contact-input select,.contact-input textarea{width:400px}.contact-input textarea{height:160px}.contact-input input[type=submit]{margin-left:150px}#forecastdata{margin:20px 0}#forecastdata table{border-collapse:collapse}#forecastdata td{width:80px;height:20px;text-align:right;padding:0 3px 0 3px;vertical-align:middle;text-align:center}#forecastdata td.icon{height:60px;text-align:center}#forecastdata tr.header td{text-align:center;height:16px;padding:0}#forecastdata table.labels{width:90px}#forecastdata table.labels td{background:#dce5f4;font-weight:bold}.map-actual{width:0;height:0;overflow:visible;position:absolute;z-index:9}.map-actual .station-holder{width:0;height:0;overflow:visible;position:relative}.station-holder div{width:50px;height:50px;text-align:center}.station-holder a{text-decoration:none}.station-holder a:hover{text-decoration:underline;color:red}.station-holder span{display:block;color:#ff0;font-weight:bold;text-shadow:.1em .1em #333;line-height:12px}.station-holder .temperature{color:red;font-size:17px}.map-actual img{width:24px;height:24px;display:block;margin-left:25%}.map-actual #station-6239{left:228px;top:0}.map-actual #station-6251{left:270px;top:105px}.map-actual #station-6260{left:274px;top:240px}.map-actual #station-6235{left:238px;top:155px}.map-actual #station-6370{left:290px;top:290px}.map-actual #station-6280{left:340px;top:120px}.map-actual #station-6279{left:330px;top:172px}.map-actual #station-6270{left:300px;top:140px}.map-actual #station-6269{left:291px;top:200px}.map-actual #station-6380{left:300px;top:356px}.map-actual #station-6344{left:225px;top:270px}.map-actual #station-6240{left:243px;top:220px}.map-actual #station-6290{left:340px;top:220px}.map-actual #station-6310{left:175px;top:310px}.heading-link{float:right;color:#fff;padding:0 10px 0 0;line-height:16px;font-weight:bold;text-decoration:none}.heading-link:hover{text-decoration:underline}#sidebar .time-list{height:auto}#sidebar .time-list-cols{height:auto;display:inline-block;width:35px!important}#nav li .col strong a{float:none;color:#060;text-decoration:none;padding:0;background:none}.block h4 a{color:#263b85;text-decoration:none}.block h4 a:hover{color:#263b85;text-decoration:underline}.locationforecast{padding:0;top:5px}.locationforecast li{width:110px;float:left;text-align:center;margin-right:2px;margin-top:10px}.locationforecast li.alternate{background-color:#eee}#nav .twocol .drop{position:absolute;top:100%;left:-5px;width:340px;background:url(/images/bg-drop-twocol.png) no-repeat 0 100%;padding:0 0 25px;display:none}#nav .twocol .drop .drop-holder{overflow:hidden;background:url(/images/bg-drop-twocol.png) repeat-y -353px 0;padding:10px 1px 0 24px}#nav .onecol .drop{position:absolute;top:100%;left:-5px;width:205px;background:url(/images/bg-drop-onecol.png) no-repeat 0 100%;padding:0 0 25px;display:none}#nav .onecol .drop .drop-holder{overflow:hidden;background:url(/images/bg-drop-onecol.png) repeat-y -204px 0;padding:10px 1px 0 24px}.two-box .ads-holder{width:300px}.twitter-link{color:#1e3689;text-decoration:none}.twitter-link:hover{text-decoration:underline}.footer-nav .col strong{display:block;background:url(/images/bg-title.gif) no-repeat 0 100%;color:#263b85;font-weight:bold;font-size:12px;line-height:15px;padding:0 0 6px;margin:0 0 5px}.weather-box{margin:0 9px 0 0}#weervideothumb{width:336px;height:189px;cursor:pointer}#weervideothumb img{width:336px;height:189px}#weervideothumb #playbutton{position:relative;top:-110px;left:140px;width:44px;height:44px}.small-page .item-2,.small-page .item-3,.small-page .item-4,.small-page .item-5,.small-page .item-6,.small-page .rainforecastchart,.small-page #forecastAlert,.small-page .box .heading .twitter-link,.small-page .homepage-promo{display:none}.shop-items-right{display:none}.small-page .shop-items-right{display:inline}.small-page .hentry .img{float:none;display:none}.small-page .hentry p{line-height:15px}.small-page .news-list{padding:0 10px}.small-page .news-list li{border-bottom:none}.small-page .news-column{width:120px}.small-page #content{width:550px}.small-page .highres{display:none}.small-page .logo{float:left;width:215px;text-indent:-9999px;overflow:hidden;margin-left:0;display:inline}.small-page #weervideothumb{width:120px;height:67px}.small-page #weervideothumb img{width:120px;height:67px}.small-page #weervideothumb #playbutton{position:relative;top:-55px;left:33px;width:44px;height:44px}.mid-page{min-width:1020px}.mid-page .news-column{width:160px}.mid-page #main-content{width:836px}.mid-page #twocolumns{width:725px}.mid-page .content-holder{width:992px}.mid-page #wrapper{}.mid-page .nav-holder .holder{background:url("/images/bg-nav-holder-c3.gif") no-repeat 50% 100%}.mid-page .video-list li{margin-left:28px}.mid-page #weervideothumb{width:160px;height:90px}.mid-page #weervideothumb img{width:160px;height:90px}.mid-page #weervideothumb #playbutton{position:relative;top:-65px;left:55px;width:44px;height:44px}.hotspot{display:block}area.hotspot{display:block}#content{font-size:12px;line-height:16px}.fivedayforecast{color:#373737;text-align:left;padding-top:2px}.fivedayforecast img{max-height:30px}.fivedayforecast table{width:100%}.fivedayforecast td{text-align:left;height:42px;vertical-align:middle;padding:0 0 0 8px}.fivedayforecast tr{}.fivedayforecast td.day{}.fivedayforecast td.rain{}#content .date{font-weight:bold;display:block;margin-bottom:10px}.weather-table table a{text-decoration:none}#fiveDayForecast{margin:30px 10px 30px 10px}.small-page2 .aside{display:none}.small-page2 #main-content{width:960px}.small-page2 #twocolumns{width:850px}.small-page2 #content{margin:0 0 0 3px;width:500px}.small-page2 .news-column{width:336px}.small-page2 .fs_zoekplaats{width:450px}.small-page2 #fs_location{width:331px}.small-page2 #fs_weatherdayContainer{left:auto}.search-weather input.search2{box-shadow:rgba(1,1,1,.1) 2px 2px 2px 2px inset;background:#fff;border:1px solid #666;width:400px}ol.numbered-list{list-style-type:decimal;color:#1e3689;font-weight:bold}.numbered-list li{padding:0;margin:10px 20px 5px 28px}.numbered-list li a{font-weight:normal;text-decoration:none;color:#333}.numbered-list li a:hover{text-decoration:underline}.tekst-rood{color:#da0000}.tekst-blauw{color:#000084}.text-oranje{color:#e1681d}.tekst-centreer{text-align:center}.tekst-rood strong,.tekst-blauw strong,.text-oranje strong,.tekst-centreer strong{font-weight:bold}p>i{font-style:italic}.cookiebtn{display:inline-block;color:#fff;font-size:14px;line-height:17px;font-weight:bold;padding:0 9px 0 0;background:url(/images/btn.gif) no-repeat 100% -90px}.cookiebtn span{display:inline-block;padding:7px 9px 16px 22px;background:url(/images/btn.gif) no-repeat}.homepage-promo strong{font-weight:bold}.billboard{text-align:center;width:970px;margin-left:auto;margin-right:auto;margin-top:5px;margin-bottom:5px}#header .ads{float:right;height:90px}.page{background-position:0 104px;background-position-y:104px}.pagebillboard{background-position:0 0;background-position-y:0}.logo{margin-right:9px;margin-top:25px}.zoekplaats{}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:160px;padding:5px 0;margin:2px 0 0;font-size:14px;list-style:none;background-color:#fff;border:1px solid rgba(0,0,0,.15);border-radius:4px;-webkit-box-shadow:0 6px 12px rgba(0,0,0,.175);box-shadow:0 6px 12px rgba(0,0,0,.175);background-clip:padding-box}.dropdown-menu li a{display:block;padding:3px 10px;color:#333;white-space:nowrap;text-decoration:none}.dropdown-menu li a strong{font-weight:bold}.dropdown-menu li a .country{font-size:11px;color:grey}.dropdown-menu .active a,.dropdown-menu .active a:hover,.dropdown-menu .active a:focus{color:#fff;text-decoration:none;background-color:#1e3789;outline:0}.dropdown-menu .active a .country,.dropdown-menu .active a:hover .country,.dropdown-menu .active a .country:focus{color:#fff}*::-webkit-input-placeholder{color:#5e7079}*:-moz-placeholder{color:#5e7079}*:-ms-input-placeholder{color:#5e7079}#fs_weatherday_0{border:none}#fs_weather10days_0{border:none}#fs_weather10days_5{border:none}.small-page #fs_weatherday_3{display:none}.small-page #fs_weatherday_4{display:none}.small-page2 #fs_weatherday_3{display:block}.small-page2 #fs_weatherday_4{display:block}.verkeerTable table{width:100%}.verkeerTable table tr{width:40%}.verkeerTable a{color:#5e7079}.verkeerTable a:hover,.verkeerTable a:visited{color:#5e7079}.trend{margin-top:5px}.weather-map-holder{position:relative;width:700px;height:843px}.weather-map-holder .preferred-location-marker{position:absolute;width:20px;height:20px;display:none;cursor:pointer;background-image:url('../images/marker-weerkaarten.png')}.weather-map-holder img{cursor:pointer}@font-face{font-family:"iconvault";src:url("/font/Forecast/iconvault_forecastfont.eot");src:url("/font/Forecast/iconvault_forecastfont.eot?#iefix") format("embedded-opentype"),url("/font/Forecast/iconvault_forecastfont.woff") format("woff"),url("/font/Forecast/iconvault_forecastfont.ttf") format("truetype"),url("/font/Forecast/iconvault_forecastfont.svg#iconvault") format("svg");font-weight:normal;font-style:normal}.forecasttitel{font-size:18px;font-weight:bold;color:#1e3688}.forecastsunset{width:40px;position:relative;top:-20px;margin-left:20px}.forecastsunrise{width:40px;position:relative;top:-20px;margin-left:20px}.forecastdaytable{width:100%}.forecastsunsetsunriseContainer{text-align:right;width:50%;float:right;height:32px}.forecastsunsettime{font-size:11px;float:right;margin-left:8px}.forecastsunrisetime{font-size:11px;float:right;margin-left:8px}.forecastdag{font-size:14px;font-weight:bold;color:#058a08;padding-top:0;padding-bottom:15px;float:left}.forecastWeatherNowtable{float:left;border:none;border-collapse:collapse}.forecastWeatherNowicon{float:left}.forecastWeatherNowicon .iconbig{width:145px;height:145px;margin-top:27px;margin-bottom:27px;margin-left:35px;margin-right:35px}.forecastWeatherNowDetailsTable{padding-top:20px}.forecastWeatherNowNameColumn{width:110px;padding-right:5px;line-height:25px}.forecastWeatherNowValueColumn{font-weight:bold;width:90px;padding-right:5px;border-left:1px solid #e7eaec;padding-left:10px}#forecastNow2hoursRainChart{float:left}#forecastNowMarker{position:absolute;top:0;left:50px;width:30px;height:80px}#forecastNowTimeMarker{background-color:#cb3301;height:20px;color:#fff;font-weight:bold}#forecastNowPointMarker{border-left-color:#cb3301;border-left-style:solid;border-left-width:3px;height:50px}.forecastWeatherNowDetails{float:left;vertical-align:middle}.forecasttable{width:100%;margin-bottom:5px;clear:both}.forecasttable thead{color:#1e3688;font-weight:bold;width:70px;height:28px;background-color:#f5f6f7;border:0;text-align:center;vertical-align:middle}.forecasttable td{border-left:1px;border-right:1px;border-style:solid;border-color:#f5f6f7;vertical-align:middle;text-align:center}.forecasttable tr{height:30px}.forecasttable tr:hover{background-color:#f5f6f7}.forecasttable .colAlignLeft{text-align:left;margin-left:10px;white-space:nowrap;width:40px}.forecasttable .colAlignRight{text-align:right;margin-left:5px;margin-right:15px;padding-right:5px;padding-top:2px;padding-bottom:2px}.forecastfont{vertical-align:text-top;text-align:left}.forecastWindimage{height:25px}.forecastWindimageLarge{height:30px}.forecastMaxTemp{text-align:right;color:#fff;background-color:#ec6813;margin-left:40px;padding-top:2px;padding-bottom:2px;padding-right:2px}.forecastMinTemp{text-align:right;color:#fff;background-color:#6daedf;margin-left:40px;padding-top:2px;padding-bottom:2px;padding-right:2px}.forecastline{height:1px;width:100%;background-color:#f5f6f7;float:left;margin-bottom:20px}.forecastfont li{list-style:none}.forecastfont ul{font-size:6px;padding-left:0}.forecaststationname{text-align:right;width:50%;float:right}.forecastmenu{margin-top:20px;margin-bottom:22px}.forecastmenu .button{font-size:14px;font-weight:bold;color:#1d3f94;margin-right:5px;display:block;padding-top:5px;padding-right:15px;padding-left:15px;padding-bottom:5px;text-decoration:none;margin-right:11px;margin-bottom:0;margin-top:0;margin-left:0;border-width:1px;border-radius:5px;background-clip:padding-box;border-color:#e5060d;background-repeat:repeat-x;background-color:#f5f6f7}.forecastmenu .active{color:#fff;background-color:#6daedf}.forecastH2{font-weight:bold;color:#039;font:12px}#chartTemperature .jqplot-yaxis{width:20px!important}#chartTemperature .jqplot-x2axis{top:10px}#chartTemperature .jqplot-x2axis-tick{border:#ebebeb;border-bottom:none;border-bottom-color:transparent;border-right:none;border-right-color:transparent;border-width:1px;border-style:solid;width:43px;text-align:center;font:10px;font-weight:bold}#chartTemperature{top:0}#chartRainbar{top:-20px}#chartRainbar .jqplot-yaxis{width:20px!important;background-color:#fff}#chartRainbar .jqplot-xaxis-tick{border:#ebebeb;border-top:none;border-right:none;border-top-color:transparent;border-right-color:transparent;border-style:solid;width:43px;text-align:center;font:10px;font-weight:bold;border-width:1px}#fourtendayschartContainer{margin-top:70px;position:relative}.forecastWeatherNowDetailsContainer{height:172px;width:220px;float:left}[class^="icon-"],[class*=" icon-"]{font-family:'iconvault';font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;font-size:6em}@media only screen and (min-width:479px) and (max-width:678px){[class^="icon-"],[class*=" icon-"]{font-family:'iconvault';font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased}}.windyraincloud:before{font-family:'iconvault';font-size:6em;content:'';position:absolute;color:#ccc}.windysnowcloud:before{font-family:'iconvault';font-size:6em;content:'';position:absolute;color:#ccc}.basethundercloud:before{font-family:'iconvault';font-size:6em;content:'';position:absolute;color:#000}.icon-thunder::before{content:"";position:absolute;color:#ffa500}.icon-sunny::after{content:"";color:#ffa500;position:absolute}.icon-drizzle::before{content:"";color:#82b2e4;position:absolute}.icon-hail::before{content:"";position:absolute;color:#ccc}.icon-showers::before{content:"";position:absolute;color:#82b2e4}.icon-rainy::before{content:"";position:absolute;color:#4681c3}.icon-snowy::before{content:"";position:absolute;color:#acd3f3}.icon-frosty::before{content:"";position:absolute;color:#85d8f7}.icon-windy::before{content:"";position:absolute;color:#ccc}.icon-windyrain::before{content:"";position:absolute;color:#acd3f3}.icon-windysnow::before{content:"";position:absolute;color:#acd3f3}.icon-sleet::before{content:"";position:absolute;color:#acd3f3}.icon-moon::after{content:"";color:#ffa500;position:absolute}.icon-night::after{content:"";position:absolute;color:#ffa500}.icon-sun::after{content:"";color:#ffa500;position:absolute}.icon-cloud::after{content:"";color:#ccc;position:absolute}.icon-sunrise:before{content:'';color:#ffa500;position:absolute}.icon-sunset:before{content:'';color:#f96f23;position:absolute}.icon-mist:before{content:'';color:#ccc;position:absolute}.jqplot-target{position:relative;color:#666;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;font-size:1em}.jqplot-axis{font-size:.75em}.jqplot-xaxis{margin-top:10px}.jqplot-x2axis{margin-bottom:10px}.jqplot-yaxis{margin-right:10px}.jqplot-y2axis,.jqplot-y3axis,.jqplot-y4axis,.jqplot-y5axis,.jqplot-y6axis,.jqplot-y7axis,.jqplot-y8axis,.jqplot-y9axis,.jqplot-yMidAxis{margin-left:10px;margin-right:10px}.jqplot-axis-tick,.jqplot-xaxis-tick,.jqplot-yaxis-tick,.jqplot-x2axis-tick,.jqplot-y2axis-tick,.jqplot-y3axis-tick,.jqplot-y4axis-tick,.jqplot-y5axis-tick,.jqplot-y6axis-tick,.jqplot-y7axis-tick,.jqplot-y8axis-tick,.jqplot-y9axis-tick,.jqplot-yMidAxis-tick{position:absolute;white-space:pre}.jqplot-xaxis-tick{top:0;left:15px;vertical-align:top}.jqplot-x2axis-tick{bottom:0;left:15px;vertical-align:bottom}.jqplot-yaxis-tick{right:0;top:15px;text-align:right}.jqplot-yaxis-tick.jqplot-breakTick{right:-20px;margin-right:0;padding:1px 5px 1px 5px;z-index:2;font-size:1.5em}.jqplot-y2axis-tick,.jqplot-y3axis-tick,.jqplot-y4axis-tick,.jqplot-y5axis-tick,.jqplot-y6axis-tick,.jqplot-y7axis-tick,.jqplot-y8axis-tick,.jqplot-y9axis-tick{left:0;top:15px;text-align:left}.jqplot-yMidAxis-tick{text-align:center;white-space:nowrap}.jqplot-xaxis-label{margin-top:10px;font-size:11pt;position:absolute}.jqplot-x2axis-label{margin-bottom:10px;font-size:11pt;position:absolute}.jqplot-yaxis-label{margin-right:10px;font-size:11pt;position:absolute}.jqplot-yMidAxis-label{font-size:11pt;position:absolute}.jqplot-y2axis-label,.jqplot-y3axis-label,.jqplot-y4axis-label,.jqplot-y5axis-label,.jqplot-y6axis-label,.jqplot-y7axis-label,.jqplot-y8axis-label,.jqplot-y9axis-label{font-size:11pt;margin-left:10px;position:absolute}.jqplot-meterGauge-tick{font-size:.75em;color:#999}.jqplot-meterGauge-label{font-size:1em;color:#999}table.jqplot-table-legend{margin-top:12px;margin-bottom:12px;margin-left:12px;margin-right:12px}table.jqplot-table-legend,table.jqplot-cursor-legend{background-color:rgba(255,255,255,.6);border:1px solid #ccc;position:absolute;font-size:.75em}td.jqplot-table-legend{vertical-align:middle}td.jqplot-seriesToggle:hover,td.jqplot-seriesToggle:active{cursor:pointer}.jqplot-table-legend .jqplot-series-hidden{text-decoration:line-through}div.jqplot-table-legend-swatch-outline{border:1px solid #ccc;padding:1px}div.jqplot-table-legend-swatch{width:0;height:0;border-top-width:5px;border-bottom-width:5px;border-left-width:6px;border-right-width:6px;border-top-style:solid;border-bottom-style:solid;border-left-style:solid;border-right-style:solid}.jqplot-title{top:0;left:0;padding-bottom:.5em;font-size:1.2em}table.jqplot-cursor-tooltip{border:1px solid #ccc;font-size:.75em}.jqplot-cursor-tooltip{border:1px solid #ccc;font-size:.75em;white-space:nowrap;background:rgba(208,208,208,.5);padding:1px}.jqplot-highlighter-tooltip,.jqplot-canvasOverlay-tooltip{border:1px solid #ccc;font-size:.75em;white-space:nowrap;background:rgba(208,208,208,.5);padding:1px}.jqplot-point-label{font-size:.75em;z-index:2}td.jqplot-cursor-legend-swatch{vertical-align:middle;text-align:center}div.jqplot-cursor-legend-swatch{width:1.2em;height:.7em}.jqplot-error{text-align:center}.jqplot-error-message{position:relative;top:46%;display:inline-block}div.jqplot-bubble-label{font-size:.8em;padding-left:2px;padding-right:2px;color:#333}div.jqplot-bubble-label.jqplot-bubble-label-highlight{background:rgba(90%,90%,90%,.7)}div.jqplot-noData-container{text-align:center;background-color:rgba(96%,96%,96%,.3)}</style>
+    <meta http-equiv="language" content="nl" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <link href="/favicon.ico" rel="shortcut icon" />
+    <title>Buienradar.nl - Weer - Actuele neerslag, weerbericht, weersverwachting, sneeuwradar en satellietbeelden</title>
+    <!-- Buienradar.nl - Weer - Actuele neerslag, weerbericht, weersverwachting, sneeuwradar en satellietbeelden -->
+    <meta name="description" content="Actuele buienradar en actueel weer voor Nederland, Belgi&amp;euml; en Europa, actuele satellietbeelden, actuele temperaturen, neerslag, en veel meer!" />
+    <meta name="keywords" content="het weer, weerbericht, weersverwachting, buienradar, regen, wolken, neerslag, KNMI, weer, klimaat, weerbericht, temperatuur, luchtdruk, reisweer, vliegweer, zeilweer, weergegevens, weerdienst, droogte, weersvoorspelling, bouwweer, hagel, weerinfo, wind, weerstation, regen, sneeuw, zon, onweer, bliksem, winter, sneeuw, zomer, mobiel" />
+    <meta name="apple-itunes-app" content="app-id=621542526" />
+    <link href="https://plus.google.com/+buienradar" rel="publisher" />
+
+        <link rel="canonical" href="http://www.buienradar.nl/" />
+
+
+    <link href="/bundles/siteCss?v=Gj5-xn-Ip3-nPnNpEDi-V3hgyo-AUgp_1k0tyoS6OVo1" rel="stylesheet"/>
+
+    <script src="/bundles/siteJs?v=wZj701d7RrYdsZOIibMNl9qV8DEjTA4oh2A_3C1VrFY1"></script>
+
+
+    <!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/css/ie.css" media="screen"/><![endif]-->
+
+    <!--[if lte IE 7]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20130526/json2.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        var disableZoom=false; //moet nog naar beheer
+        var refspots = '';
+        setRefspots(refspots); // related: buienradar.zoom.js
+        var isHomePage = true;
+    </script>
+        <script type="text/javascript" src="http://consent.buienradar.nl/js/buienradar.cookieconsent.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                displayConsentPopup();
+            });
+        </script>
+    
+    <!-- DFP 6 -->
+        <script type="text/javascript" src="/scripts/ask/buienradar.min.js?v=20150617"></script>
+        <script type="text/javascript">
+            var dfp6active=1;
+            var dfp6key = {"collections":"buienradar","context":"","nav":"home","neerslag":"0","noad":"","ns_channel":"nieuws_informatie/buienradar","ns_context":"buienradar","publicatiepunt":"buienradarnl","source":"buienradar","temp":"8","type":"home","ui":"buienradarnl.home","wind":"0","abstractkey":"294457","seasonkey":"294458"};
+
+            $(document).ready(function () {
+                RTL.init({
+                    meta: dfp6key,
+                    ads : {skipDatasource : true, infiniteSlots:true },
+                    stats: {skipDatasource : true},
+                    topbar: {visible: false}
+                });
+            });
+        </script>
+    
+    <!-- Ab test -->
+
+           <script type="text/javascript">
+               var abtestactive = 0;
+           </script>
+    <!-- ComScore DAx tag -->
+    <script type="text/javascript"> ns_tc_time = +new Date(); </script>
+
+    <script type="text/javascript">
+    function viewport() {
+        var myWidth = 0, myHeight = 0;
+        if( typeof( window.innerWidth ) == 'number' ) {
+            //Non-IE
+            myWidth = window.innerWidth;
+            myHeight = window.innerHeight;
+        } else if( document.documentElement &&
+       ( document.documentElement.clientWidth
+       || document.documentElement.clientHeight ) ) {
+            //IE 6+ in 'standards compliant mode'
+            myWidth = document.documentElement.clientWidth;
+            myHeight = document.documentElement.clientHeight;
+        } else if( document.body &&
+       ( document.body.clientWidth
+       || document.body.clientHeight ) ) {
+            //IE 4 compatible
+            myWidth = document.body.clientWidth;
+            myHeight = document.body.clientHeight;
+        }
+
+        ga('send',
+         'event',
+         'Viewport',
+         'Size',
+         myWidth+'x'+myHeight,
+         {'nonInteraction': 1});
+    }
+    </script>
+
+    
+</head>
+<body ng-app="buienradarApp" id="ng-app" xmlns:ng="http://angularjs.org" onload="viewport()">
+    <script type="text/javascript" src="/scripts/buienradar.nl.checkresolution.js?v=2.3"></script>
+    <noscript>
+        <div>
+            Javascript moet ingeschakeld zijn voor een juiste weergave van de pagina
+        </div>
+    </noscript>
+    <div id="wrapper">
+        <div class="skip">
+            <a accesskey="1" href="#main">Skip to Content</a>
+        </div>
+        <div class="page">
+            <div class="content-holder">
+                    <div id="header" class="vcard">
+
+                        <h1 class="logo">
+                            <a href="/" class="fn url org">BuienRadar</a>
+                        </h1>
+                        <div id="banner-h" class="ads">
+                            <div  border="no" scrolling="no" style="border:0;width:728px;height:90px;min-height:90px" data-rtldart-pos="leaderboard"  data-rtldart-format="[728,90]"></div>
+                        </div>
+                    </div>
+
+                <div class="nav-holder">
+                    <div class="holder">
+                        <ul id="nav">
+<li><a href="/"><span>Buienradar</span></a>
+<div class="drop">
+<div class="drop-holder">
+<div class="col"><strong><a href="/actueel">NL actueel</a></strong>
+<ul>
+<li><a href="/">Afgelopen uur</a></li>
+<li><a href="/bliksem-1-uur">Afgelopen uur bliksem</a></li>
+<li><a href="/afgelopen-2-uur">Afgelopen 2 uur</a></li>
+<li><a href="/afgelopen-3-uur">Afgelopen 3 uur</a></li>
+<li><a href="/afgelopen-24-uur">Afgelopen 24 uur</a></li>
+<li><a href="/panorama">Panoramaradar</a></li>
+<li><a href="/hagel-1-uur">Hagelkans</a></li>
+</ul>
+<strong><a href="/verwachting-2-uur">NL verwacht</a></strong>
+<ul>
+<li><a href="/verwachting-2-uur">Komende 2 uur</a></li>
+<li><a href="/verwachting-3-uur">Komende 3 uur</a></li>
+<li><a href="/verwachting-24-uur/neerslag">Komende 24 uur</a></li>
+<li><a href="http://europa.buienradar.nl/verwachting/neerslag">Komende 7 dagen</a></li>
+</ul>
+</div>
+<div class="col"><strong><a href="/buienradar-locatie-instellen">Mijn radar</a></strong>
+<ul>
+<li><a href="/">In Nederland</a></li>
+<li><a href="http://europa.buienradar.nl/local.aspx">In Europa</a></li>
+</ul>
+<strong><a href="/evenementen/agenda">Evenementen</a></strong>
+<ul>
+<li><a href="/evenementen/agenda">Agenda</a></li>
+<li><a href="/evenementen/overzicht">Overzicht op de kaart</a></li>
+<li><a href="/evenementen/toevoegen">Toevoegen</a></li>
+</ul>
+<strong><a href="http://europa.buienradar.nl">EU Buienradar</a></strong>
+<ul>
+<li><a href="http://europa.buienradar.nl/">afgelopen 3 uur</a></li>
+<li><a href="http://europa.buienradar.nl/radar-verwachting">komende 3 uur</a></li>
+<li><a href="http://europa.buienradar.nl/onweer">radar &amp; bliksem</a></li>
+<li><a href="http://europa.buienradar.nl/wolkenregen">wolken &amp; bliksem</a></li>
+<li><a href="http://europa.buienradar.nl/archief">Europa archief</a></li>
+</ul>
+</div>
+<div class="col"><strong><a href="/bliksem">Radardiensten</a></strong>
+<ul>
+<li><a href="/bliksem">Blikseminslagen</a></li>
+<li><a href="http://www.buienradar.nl/motregenradar">Motregenradar</a></li>
+<li><a href="/wolkenhoogte">Wolkenhoogte</a></li>
+<li><a href="/hagel-1-uur">Hagelkans</a></li>
+<li><a href="/3d-radar">3D buienradar</a></li>
+<li><a href="/radararchief">Radararchief</a></li>
+<li><a href="/googlemaps">Google maps</a></li>
+<li><a href="/sneeuwradar">Sneeuwradar</a></li>
+</ul>
+<strong><a href="/radararchief?soort=1">Cumulatief</a></strong></div>
+</div>
+</div>
+</li>
+<li class="twocol"><a href="/actueel"><span>Actueel</span></a>
+<div class="drop">
+<div class="drop-holder">
+<div class="col"><strong><a href="/weerkaarten/temperatuur">kaarten</a></strong>
+<ul>
+<li><a href="/weerkaarten/temperatuur">temperatuur</a></li>
+<li><a href="http://www.buienradar.nl/weerkaarten/gevoelstemperatuur">gevoelstemperatuur</a></li>
+<li><a href="http://www.buienradar.nl/weerkaarten/temperatuurgrond">grondtemperatuur</a></li>
+<li><a href="/weerkaarten/wind">wind</a></li>
+<li><a href="/weerkaarten/zicht">zicht/mist</a></li>
+<li><a href="http://www.buienradar.nl/weerkaarten/neerslag24uur">neerslag</a></li>
+<li><a href="http://www.buienradar.nl/weerkaarten/zonneschijn">zonuren</a></li>
+<li><a href="/bliksem">blikseminslagen</a></li>
+<li><a href="/uv-straling">UV-straling</a></li>
+<li><a href="/actueel">nu kaart</a></li>
+</ul>
+<strong><a href="/weerbericht-nederland">weerbericht</a></strong>
+<ul>
+<li><a href="/weerbericht-nederland">weerbericht Nederland</a></li>
+<li><a href="http://zomerradar.buienradar.nl/Home/TextPage?pageid=1259">Zomerweerbericht</a></li>
+<li><a href="http://zomerradar.buienradar.nl/pollen-hooikoorts-weerbericht">weerbericht pollen</a></li>
+<li><a target="_blank" href="http://www.twitter.com/buienradarnl">twitter</a></li>
+<li><a href="http://nieuws.buienradar.nl/weerbericht.aspx?bron=2">weercolumns</a></li>
+</ul>
+</div>
+<div class="col"><strong><a href="/weerstation/6260/debilt">metingen</a></strong>
+<ul>
+<li><a href="/weerstation/6260/debilt">weerstations</a></li>
+<li><a href="/smog/chartsmodule?type=nidekking">weergrafieken</a></li>
+<li><a href="/actuele-waterstanden">actuele waterstanden</a></li>
+<li><a href="/zeetemperatuur-europa">zeetemperatuur EU</a></li>
+<li><a href="/zeetemperatuur-noordzee">zeetemperatuur NL</a></li>
+<li><a href="/zonop-zononder">zonsopkomst</a></li>
+</ul>
+<strong><a href="/weerwaarschuwingen">Waarschuwingen</a></strong>
+<ul>
+<li><a href="/weerwaarschuwingen">per provincie</a></li>
+<li><a href="/weerwaarschuwingen-kust">kustgebieden</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="onecol"><a href="/weerbericht-nederland"><span>Verwachting</span></a>
+<div class="drop">
+<div class="drop-holder">
+<div class="col"><strong><a href="/weerbericht-nederland">vandaag</a></strong>
+<ul>
+<li><a href="/weerbericht-nederland">weerbericht</a></li>
+<li><a href="/weersverwachting/type">weer per plaats</a></li>
+<li><a href="/verwachting-2-uur">radar 2 uur vooruit</a></li>
+<li><a href="/verwachting-24-uur/neerslag">radar 24 uur vooruit</a></li>
+<li><a href="/wereld">wereldkaart</a></li>
+</ul>
+<strong><a href="/weerbericht-nederland-komende-5-tot-9-dagen">komende week</a></strong>
+<ul>
+<li><a href="/pluim">de pluim</a></li>
+<li><a href="/weerbericht-nederland-komende-5-tot-9-dagen">5 daagse</a></li>
+<li><a href="/weersverwachting/type">weer per plaats</a></li>
+<li><a href="/wereld">wereldkaart</a></li>
+</ul>
+<strong><a href="http://europa.buienradar.nl/verwachting/neerslag">7 daagse</a></strong>
+<ul>
+<li><a href="http://europa.buienradar.nl/verwachting/neerslag">7 daagse neerslag</a></li>
+<li><a href="http://europa.buienradar.nl/verwachting/bliksem">7 daagse onweer</a></li>
+<li><a href="http://europa.buienradar.nl/verwachting/temperatuur">7 daagse temperatuur</a></li>
+<li><a href="http://europa.buienradar.nl/verwachting/wind">7 daagse wind</a></li>
+<li><a href="http://europa.buienradar.nl/verwachting/wolken">7 daagse wolken</a></li>
+<li><a href="http://zomerradar.buienradar.nl/zonkracht-verwacht">7 daagse zon</a></li>
+</ul>
+<strong><a href="http://www.buienradar.nl/weer/#14daagse">14 daagse</a></strong>
+<ul>
+<li><a href="/pluim">de pluim</a></li>
+<li><a href="/weersverwachting/type">Nederlandse plaatsen</a></li>
+<li><a href="http://www.buienradar.nl/wereld">buitenlandse plaatsen</a></li>
+<li><a href="/wereld">wereldkaart</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="twocol"><a href="http://zomerradar.buienradar.nl/"><span>Zomer</span></a>
+<div class="drop">
+<div class="drop-holder">
+<div class="col"><strong><a href="http://zomerradar.buienradar.nl/zon-afgelopen-uur">Zonradar</a></strong>
+<ul>
+<li><a href="http://zomerradar.buienradar.nl/zon-afgelopen-uur">Laatste uur</a></li>
+<li><a href="http://zomerradar.buienradar.nl/zon-verwachting-3-uur">Verwachting 3 uur</a></li>
+</ul>
+<strong><a href="http://zomerradar.buienradar.nl/wolken-afgelopen-uur">Wolkenradar</a></strong>
+<ul>
+<li><a href="http://zomerradar.buienradar.nl/wolken-afgelopen-uur">Afgelopen uur</a></li>
+<li><a href="http://zomerradar.buienradar.nl/wolkenverwachting-3-uur">Verwachting 3 uur</a></li>
+</ul>
+<strong><a href="http://zomerradar.buienradar.nl/temperatuur">Temperatuur</a></strong>
+<ul>
+<li><a href="http://zomerradar.buienradar.nl/temperatuur">Verwachting 3 uur</a></li>
+</ul>
+<strong><a href="http://zomerradar.buienradar.nl/europa-weerbericht">Vakantieweer</a></strong>
+<ul>
+<li><a href="http://zomerradar.buienradar.nl/europa-weerbericht">Zomerweerbericht buitenland</a></li>
+</ul>
+</div>
+<div class="col"><strong><a href="http://zomerradar.buienradar.nl/europa-weerbericht">Zeilweer</a></strong>
+<ul>
+<li><a href="http://zomerradar.buienradar.nl/meteogram">Windverwachting</a></li>
+<li><a href="http://zomerradar.buienradar.nl/meteogram">Metogrammen locaties</a></li>
+</ul>
+<strong><a href="http://zomerradar.buienradar.nl/pollen-hooikoorts-weerbericht">Gezondheid</a></strong>
+<ul>
+<li><a href="http://zomerradar.buienradar.nl/pollen-hooikoorts-weerbericht">Gezondheid</a></li>
+<li><a href="http://zomerradar.buienradar.nl/uv-straling">UV-straling</a></li>
+<li><a href="http://zomerradar.buienradar.nl/zonkracht-verwacht">Verwachte zonkracht</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="twocol"><a href="http://wolken.buienradar.nl"><span>Satelliet</span></a></li>
+<li class="onecol"><a href="http://social.buienradar.nl"><span>Foto &amp; video</span></a>
+<div class="drop">
+<div class="drop-holder">
+<div class="col">
+<ul>
+<li><a href="http://social.buienradar.nl/highlights">uitgelichte foto's / video's</a></li>
+<li><a href="http://social.buienradar.nl/all">alle foto's / video's</a></li>
+<li><a href="http://social.buienradar.nl/">upload je foto / video</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<!--
+<li class="onecol"><a href="http://buienradar.yubby.nl" mce_href="http://buienradar.yubby.nl"><span>Video's</span></a>
+<div class="drop">
+<div class="drop-holder">
+<div class="col">
+<ul>
+<li><a href="http://buienradar.yubby.nl/buienradar" mce_href="http://buienradar.yubby.nl/buienradar" rel="nofollow">uitgelicht</a></li>
+<li><a href="http://buienradar.yubby.nl/buienradar/sort:newest" mce_href="http://buienradar.yubby.nl/buienradar/sort:newest" rel="nofollow">meest recent</a></li>
+<li><a href="http://buienradar.yubby.nl/buienradar/sort:views" mce_href="http://buienradar.yubby.nl/buienradar/sort:views" rel="nofollow">meest populair</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+-->
+<li class="onecol"><a href="http://www.buienradar.nl/buienradar-locatie-instellen"><span>Mijn Radar</span></a>
+<div class="drop">
+<div class="drop-holder">
+<div class="col"><strong><a href="/buienradar-locatie-instellen">Nederland</a></strong>
+<ul>
+<li><a href="/buienradar-locatie-instellen">stel uw locatie in</a></li>
+</ul>
+<strong><a href="http://europa.buienradar.nl/mijnradar">Europa</a></strong>
+<ul>
+<li><a href="http://europa.buienradar.nl/mijnradar">stel uw locatie in</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="onecol"><a href="/home/textpage?pagename=gadgets"><span>Gadgets &amp; Apps</span></a>
+<div class="drop">
+<div class="drop-holder">
+<div class="col"><strong><a href="/home/textpage?pagename=nieuwe_app_android">Apps</a></strong>
+<ul>
+<li><a href="https://play.google.com/store/apps/details?id=com.supportware.Buienradar&amp;hl=nl_NL" target="_blank">Android (telefoon + tablet)</a></li>
+<li><a href="https://itunes.apple.com/nl/app/buienradar/id621542526?mt=8" target="_blank">iOS (iPhone + iPad)</a></li>
+<li><a href="http://www.windowsphone.com/en-us/store/app/buienradar-nl/cd841aa1-bbd7-df11-a844-00237de2db9e" target="_blank">Windows Phone</a></li>
+<li><a href="http://appworld.blackberry.com/webstore/content/35402890/?lang=en&amp;countrycode=NL" target="_blank">BlackBerry</a></li>
+</ul>
+<strong><a href="/home/textpage?pagename=gadgets">Gadgets</a></strong>
+<ul>
+<li><a href="/home/textpage?pagename=gadgets">voor uw PC of mobiel</a></li>
+<li><a href="http://gratisweerdata.buienradar.nl">voor op uw website</a></li>
+</ul>
+<strong><a href="http://buienradar.nl/home/textpage?pagename=telefoon_sms">Varia</a></strong>
+<ul>
+<li><a href="http://buienradar.nl/home/textpage?pagename=telefoon_sms">Telefoonlijn en SMS dienst</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<form action="/Home/Search" class="search" id="topbarsearch" method="get">                            <fieldset>
+                                <legend class="hidden">Search</legend><span class="text">
+                                    <input id="searchtop" accesskey="4" title="Zoeken op plaats" name="q" type="text" autocomplete="off" class='form-control' value="Zoeken plaats" />
+                                </span>
+                            </fieldset>
+</form>                    </div>
+                </div>
+
+
+                <div id="main">
+                    
+
+<div id="main-content">
+    <div id="twocolumns">
+        <div id="content">
+            <div class="map-box" style="padding: 0px;">
+                
+
+
+    <ul class="tabset">
+        <li aria-label="default" class=""><a href="/"><span>Regen</span></a></li>
+        <li aria-label="motregen" class=""><a href="/motregenradar"><span>Motregen</span></a></li>
+        <li aria-label="bliksem" class=""><a href="/bliksem-1-uur"><span>Onweer</span></a></li>
+        <li aria-label="hagel" class=""><a href="/hagel-1-uur"><span>Hagel</span></a></li>
+        <li aria-label="zon" class=""><a href="http://zomerradar.buienradar.nl/"><span>Zon</span></a></li>
+    </ul>
+    <script type="text/javascript">
+        var url = window.location.href;
+        $(".tabset li").each(function (o) {
+            var label = $(this).attr("aria-label");
+            if (url.search(label) > -1) {
+                $(this).addClass("active");
+            }
+        });
+        if ($(".tabset li[class='active']").length == 0) {
+            $(".tabset li[aria-label='default']").addClass("active");
+        }
+    </script>
+
+                <div class="map-holder" id="radar">
+                    
+                    <img src="/image?type=zozw" alt="Buienradar" width="550" height="512" usemap="#HotSpots" />
+                        <map id="HotSpots" name="HotSpots" class="hotspot">
+                                <area id="52,6333-4,75" shape="rect" coords="256,214,266,204" title="Alkmaar inzoomen" alt="Alkmaar inzoomen" class="hotspot" />
+                                <area id="52,35-6,66667" shape="rect" coords="361,241,371,231" title="Almelo inzoomen" alt="Almelo inzoomen" class="hotspot" />
+                                <area id="52,15-5,38333" shape="rect" coords="291,260,301,250" title="Amersfoort inzoomen" alt="Amersfoort inzoomen" class="hotspot" />
+                                <area id="52,37403-4,88969" shape="rect" coords="264,240,274,230" title="Amsterdam inzoomen" alt="Amsterdam inzoomen" class="hotspot" />
+                                <area id="52,2167-5,96667" shape="rect" coords="323,255,333,245" title="Apeldoorn inzoomen" alt="Apeldoorn inzoomen" class="hotspot" />
+                                <area id="51,9833-5,91667" shape="rect" coords="319,277,329,267" title="Arnhem inzoomen" alt="Arnhem inzoomen" class="hotspot" />
+                                <area id="53-6,56" shape="rect" coords="356,180,366,170" title="Assen inzoomen" alt="Assen inzoomen" class="hotspot" />
+                                <area id="51,58656-4,77596" shape="rect" coords="258,316,268,306" title="Breda inzoomen" alt="Breda inzoomen" class="hotspot" />
+                                <area id="51,69129-5,31146" shape="rect" coords="287,305,297,295" title="Den Bosch inzoomen" alt="Den Bosch inzoomen" class="hotspot" />
+                                <area id="52,0833-4,3" shape="rect" coords="232,269,242,259" title="Den Haag inzoomen" alt="Den Haag inzoomen" class="hotspot" />
+                                <area id="51,9667-6,3" shape="rect" coords="341,279,351,269" title="Doetinchem inzoomen" alt="Doetinchem inzoomen" class="hotspot" />
+                                <area id="51,8-4,66667" shape="rect" coords="252,295,262,285" title="Dordrecht inzoomen" alt="Dordrecht inzoomen" class="hotspot" />
+                                <area id="52,5333-5,71667" shape="rect" coords="310,225,320,215" title="Dronten inzoomen" alt="Dronten inzoomen" class="hotspot" />
+                                <area id="51,45-5,46667" shape="rect" coords="296,329,306,319" title="Eindhoven inzoomen" alt="Eindhoven inzoomen" class="hotspot" />
+                                <area id="52,7833-6,9" shape="rect" coords="374,200,384,190" title="Emmen inzoomen" alt="Emmen inzoomen" class="hotspot" />
+                                <area id="52,2167-6,9" shape="rect" coords="374,254,384,244" title="Enschede inzoomen" alt="Enschede inzoomen" class="hotspot" />
+                                <area id="52,35-5,98333" shape="rect" coords="324,241,334,231" title="Epe inzoomen" alt="Epe inzoomen" class="hotspot" />
+                                <area id="52,01667-4,70833" shape="rect" coords="254,274,264,264" title="Gouda inzoomen" alt="Gouda inzoomen" class="hotspot" />
+                                <area id="53,21938-6,566502" shape="rect" coords="356,158,366,148" title="Groningen inzoomen" alt="Groningen inzoomen" class="hotspot" />
+                                <area id="52,38363-4,635956" shape="rect" coords="250,238,260,228" title="Haarlem inzoomen" alt="Haarlem inzoomen" class="hotspot" />
+                                <area id="52,95-5,93333" shape="rect" coords="321,183,331,173" title="Heerenveen inzoomen" alt="Heerenveen inzoomen" class="hotspot" />
+                                <area id="52,7225-6,47639" shape="rect" coords="351,205,361,195" title="Hoogeveen inzoomen" alt="Hoogeveen inzoomen" class="hotspot" />
+                                <area id="53,20123-5,799913" shape="rect" coords="314,159,324,149" title="Leeuwarden inzoomen" alt="Leeuwarden inzoomen" class="hotspot" />
+                                <area id="52,16032-4,493926" shape="rect" coords="242,260,252,250" title="Leiden inzoomen" alt="Leiden inzoomen" class="hotspot" />
+                                <area id="50,85-5,68333" shape="rect" coords="308,386,318,376" title="Maastricht inzoomen" alt="Maastricht inzoomen" class="hotspot" />
+                                <area id="51,8425-5,85278" shape="rect" coords="317,291,327,281" title="Nijmegen inzoomen" alt="Nijmegen inzoomen" class="hotspot" />
+                                <area id="52,5167-6,43333" shape="rect" coords="348,225,358,215" title="Ommen inzoomen" alt="Ommen inzoomen" class="hotspot" />
+                                <area id="52,5167-4,95" shape="rect" coords="268,226,278,216" title="Purmerend inzoomen" alt="Purmerend inzoomen" class="hotspot" />
+                                <area id="51,2-6" shape="rect" coords="268,226,278,216" title="Roermond inzoomen" alt="Roermond inzoomen" class="hotspot" />
+                                <area id="51,9167-4,5" shape="rect" coords="241,283,251,273" title="Rotterdam inzoomen" alt="Rotterdam inzoomen" class="hotspot" />
+                                <area id="52,7833-4,8" shape="rect" coords="259,199,269,189" title="Schagen inzoomen" alt="Schagen inzoomen" class="hotspot" />
+                                <area id="50,96912-5,822895" shape="rect" coords="315,375,325,365" title="Sittard-Geleen inzoomen" alt="Sittard-Geleen inzoomen" class="hotspot" />
+                                <area id="53,1-6,1" shape="rect" coords="329,167,339,157" title="Drachten inzoomen" alt="Drachten inzoomen" class="hotspot" />
+                                <area id="53,0333-5,66667" shape="rect" coords="306,176,316,166" title="Sneek inzoomen" alt="Sneek inzoomen" class="hotspot" />
+                                <area id="51,9167-5,5" shape="rect" coords="293,286,303,276" title="Tiel inzoomen" alt="Tiel inzoomen" class="hotspot" />
+                                <area id="51,55551-5,0913" shape="rect" coords="274,315,284,305" title="Tilburg inzoomen" alt="Tilburg inzoomen" class="hotspot" />
+                                <area id="52,09014-5,109665" shape="rect" coords="276,267,286,257" title="Utrecht inzoomen" alt="Utrecht inzoomen" class="hotspot" />
+                                <area id="53,1-6,88333" shape="rect" coords="373,169,383,159" title="Veendam inzoomen" alt="Veendam inzoomen" class="hotspot" />
+                                <area id="51,3667-6,16667" shape="rect" coords="334,336,344,326" title="Venlo inzoomen" alt="Venlo inzoomen" class="hotspot" />
+                                <area id="51,5333-5,98333" shape="rect" coords="324,321,334,311" title="Venray inzoomen" alt="Venray inzoomen" class="hotspot" />
+                                <area id="50,8833-5,73333" shape="rect" coords="309,349,319,339" title="Weert inzoomen" alt="Weert inzoomen" class="hotspot" />
+                                <area id="51,9667-6,71667" shape="rect" coords="364,278,374,268" title="Winterswijk inzoomen" alt="Winterswijk inzoomen" class="hotspot" />
+                                <area id="52,05-4,5" shape="rect" coords="242,270,252,260" title="Zoetermeer inzoomen" alt="Zoetermeer inzoomen" class="hotspot" />
+                                <area id="52,51677-6,083022" shape="rect" coords="330,226,340,216" title="Zwolle inzoomen" alt="Zwolle inzoomen" class="hotspot" />
+                                <area id="52,21-0,12" shape="rect" coords="2,256,12,246" title="Cambridge inzoomen" alt="Cambridge inzoomen" class="hotspot" />
+                                <area id="52,63-1,29" shape="rect" coords="66,215,76,205" title="Norwich    inzoomen" alt="Norwich    inzoomen" class="hotspot" />
+                                <area id="51,2167-4,41667" shape="rect" coords="237,351,247,341" title="Antwerpen inzoomen" alt="Antwerpen inzoomen" class="hotspot" />
+                                <area id="51,2167-3,23" shape="rect" coords="172,352,182,342" title="Brugge inzoomen" alt="Brugge inzoomen" class="hotspot" />
+                                <area id="50,85045-4,34878" shape="rect" coords="234,387,244,377" title="Brussel inzoomen" alt="Brussel inzoomen" class="hotspot" />
+                                <area id="50,4167-4,43333" shape="rect" coords="239,429,249,419" title="Charleroi inzoomen" alt="Charleroi inzoomen" class="hotspot" />
+                                <area id="51,05-3,73" shape="rect" coords="200,367,210,357" title="Gent inzoomen" alt="Gent inzoomen" class="hotspot" />
+                                <area id="50,83-3,26" shape="rect" coords="175,388,185,378" title="Kortrijk inzoomen" alt="Kortrijk inzoomen" class="hotspot" />
+                                <area id="50,88-4,7" shape="rect" coords="254,384,264,374" title="Leuven inzoomen" alt="Leuven inzoomen" class="hotspot" />
+                                <area id="50,6333-5,56667" shape="rect" coords="302,408,312,398" title="Luik inzoomen" alt="Luik inzoomen" class="hotspot" />
+                                <area id="50,46-3,95" shape="rect" coords="213,425,223,415" title="Mons inzoomen" alt="Mons inzoomen" class="hotspot" />
+                                <area id="50,4667-4,86667" shape="rect" coords="263,424,273,414" title="Namur inzoomen" alt="Namur inzoomen" class="hotspot" />
+                                <area id="49,6117-6,13" shape="rect" coords="332,506,342,496" title="Luxemburg inzoomen" alt="Luxemburg inzoomen" class="hotspot" />
+                                <area id="50,1-1,84" shape="rect" coords="96,459,106,449" title="Abbeville inzoomen" alt="Abbeville inzoomen" class="hotspot" />
+                                <area id="49,89-2,29" shape="rect" coords="121,479,131,469" title="Amiens inzoomen" alt="Amiens inzoomen" class="hotspot" />
+                                <area id="50,17-3,23" shape="rect" coords="173,452,183,442" title="Cambrai inzoomen" alt="Cambrai inzoomen" class="hotspot" />
+                                <area id="50,65-3,07" shape="rect" coords="163,408,173,398" title="Lille inzoomen" alt="Lille inzoomen" class="hotspot" />
+                                <area id="49,85-3,28" shape="rect" coords="176,483,186,473" title="Saint-Quentin inzoomen" alt="Saint-Quentin inzoomen" class="hotspot" />
+                                <area id="52,0333-8,53333" shape="rect" coords="464,273,474,263" title="Bielefeld inzoomen" alt="Bielefeld inzoomen" class="hotspot" />
+                                <area id="53,07516-8,80777" shape="rect" coords="479,171,489,161" title="Bremen inzoomen" alt="Bremen inzoomen" class="hotspot" />
+                                <area id="51,5167-7,45" shape="rect" coords="406,323,416,313" title="Dortmund inzoomen" alt="Dortmund inzoomen" class="hotspot" />
+                                <area id="49,6069-6,16861" shape="rect" coords="425,307,435,297" title="Hamm inzoomen" alt="Hamm inzoomen" class="hotspot" />
+                                <area id="52,37-9,72" shape="rect" coords="530,239,540,229" title="Hannover inzoomen" alt="Hannover inzoomen" class="hotspot" />
+                                <area id="50,359-7,59" shape="rect" coords="412,434,422,424" title="Koblenz inzoomen" alt="Koblenz inzoomen" class="hotspot" />
+                                <area id="51,9667-7,6333" shape="rect" coords="414,280,424,270" title="Munster inzoomen" alt="Munster inzoomen" class="hotspot" />
+                                <area id="53,14118-8,21467" shape="rect" coords="447,165,457,155" title="Oldenburg inzoomen" alt="Oldenburg inzoomen" class="hotspot" />
+                                <area id="52,2667-8,05" shape="rect" coords="438,249,448,239" title="Osnabr&#252;ck inzoomen" alt="Osnabr&#252;ck inzoomen" class="hotspot" />
+                                <area id="51,7167-8,76667" shape="rect" coords="477,303,487,293" title="Paderborn inzoomen" alt="Paderborn inzoomen" class="hotspot" />
+                        </map>
+                                    </div>
+               
+            </div>
+
+
+    <div class="socialbar" style="text-align:center;">
+        <ul>
+            <li class="sharetext"></li>
+            <li><a onclick="window.open('/social/twitter/Radar', 'twitter', 'width=600,height=500')"><img src="/images/social/tweet_tw.png" style="border:none;" /></a></li>
+            <li><a onclick="window.open('/social/facebook/Radar', 'facebook', 'width=600,height=500')"><img src="/images/social/share_fb.png" style="border:none;" /></a></li>
+            <li><a href="//pinterest.com/pin/create/button/?url=http%3a%2f%2fwww.buienradar.nl%2f&media=http%3a%2f%2fzomerradar.buienradar.nl%2fsocial%2fimage%2fRadar&description=Bekijk+en+deel+ook+het+laatste+radarbeeld+van+Buienradar" data-pin-do="buttonPin" data-pin-config="none"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a></li>
+            <li><a class="g-plus" data-action="share" data-annotation="none" data-href="http://www.buienradar.nl/social/image/Radar"></a></li>
+        </ul>
+        <!-- Place this tag after the last share tag. -->
+        <script type="text/javascript">
+            //needed to have G+ in Dutch
+            window.___gcfg = { lang: 'nl' };
+            var scripts = new Array("//assets.pinterest.com/js/pinit.js", "https://apis.google.com/js/plusone.js");
+            for (var i = 0; i < scripts.length; i++) {
+                var po = document.createElement('script');
+                po.type = 'text/javascript';
+                po.async = true;
+                po.src = scripts[i];
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(po, s);
+            }
+        </script>
+    </div>
+            <div class="two-box">
+                <div class="weather-box">
+                    <div class="fivedayforecast">
+                        <strong class="title">
+                            <a href="/weerbericht-nederland-komende-5-tot-9-dagen ">
+                                Het weer in Nederland
+                            </a>
+                        </strong>
+
+                            <table>
+                                    <tr>
+                                        <td class="fs_daytext">
+                                                    morgen
+                                        </td>
+
+                                        <td>
+                                            <img src="/Images/weerperplaats_30x30/2013_BR_forecast-iconen_o.png" alt="weertype" />
+                                        </td>
+                                        <td>
+                                            <span class="fs_maxtemp">18°</span>
+                                            <span>/</span>
+                                            <span class="fs_mintemp">6°</span>
+                                        </td>
+                                        <td>
+                                            10%
+                                        </td>
+                                        <td>
+                                            <img src="/images/regen-icon.png" alt="regenkans" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fs_daytext">
+maandag                                        </td>
+
+                                        <td>
+                                            <img src="/Images/weerperplaats_30x30/2013_BR_forecast-iconen_q.png" alt="weertype" />
+                                        </td>
+                                        <td>
+                                            <span class="fs_maxtemp">18°</span>
+                                            <span>/</span>
+                                            <span class="fs_mintemp">8°</span>
+                                        </td>
+                                        <td>
+                                            70%
+                                        </td>
+                                        <td>
+                                            <img src="/images/regen-icon.png" alt="regenkans" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fs_daytext">
+dinsdag                                        </td>
+
+                                        <td>
+                                            <img src="/Images/weerperplaats_30x30/2013_BR_forecast-iconen_l.png" alt="weertype" />
+                                        </td>
+                                        <td>
+                                            <span class="fs_maxtemp">19°</span>
+                                            <span>/</span>
+                                            <span class="fs_mintemp">12°</span>
+                                        </td>
+                                        <td>
+                                            80%
+                                        </td>
+                                        <td>
+                                            <img src="/images/regen-icon.png" alt="regenkans" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fs_daytext">
+woensdag                                        </td>
+
+                                        <td>
+                                            <img src="/Images/weerperplaats_30x30/2013_BR_forecast-iconen_q.png" alt="weertype" />
+                                        </td>
+                                        <td>
+                                            <span class="fs_maxtemp">17°</span>
+                                            <span>/</span>
+                                            <span class="fs_mintemp">11°</span>
+                                        </td>
+                                        <td>
+                                            60%
+                                        </td>
+                                        <td>
+                                            <img src="/images/regen-icon.png" alt="regenkans" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fs_daytext">
+donderdag                                        </td>
+
+                                        <td>
+                                            <img src="/Images/weerperplaats_30x30/2013_BR_forecast-iconen_o.png" alt="weertype" />
+                                        </td>
+                                        <td>
+                                            <span class="fs_maxtemp">15°</span>
+                                            <span>/</span>
+                                            <span class="fs_mintemp">8°</span>
+                                        </td>
+                                        <td>
+                                            20%
+                                        </td>
+                                        <td>
+                                            <img src="/images/regen-icon.png" alt="regenkans" />
+                                        </td>
+                                    </tr>
+                            </table>
+                            <a href="/weerbericht-nederland-komende-5-tot-9-dagen ">Volledige verwachting Nederland</a>
+
+                    </div>
+                </div>
+                <div class="ads-holder">
+<div  border="no" scrolling="no" style="border:0;width:300px;height:250px;min-height:250px" data-rtldart-pos="rectangle"  data-rtldart-format="[300,250]"></div>                </div>
+            </div>
+            <div class="weather-table">
+        <table>
+            <caption class="hidden">
+                weather</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Weerstation (23:20)
+                    </th>
+                    <th>
+                        Temperatuur (°C)
+                    </th>
+                    <th>
+                        Vocht (%)
+                    </th>
+                    <th>
+                        Wind (Bft)
+                    </th>
+                    <th>
+                        Stoten (m/s)
+                    </th>
+                    <th>
+                        Luchtdruk (hPa)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6275/Arnhem">Arnhem</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6275/ta?name=Temperatuur&amp;stationname=Arnhem&amp;extension=in%2Bgraden">11,3</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6275/rh?name=Luchtvochtigheid&amp;stationname=Arnhem&amp;extension=procenten">95</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6275/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Arnhem&amp;extension=km%2Fu">OZO 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6275/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Arnhem&amp;extension=km%2Fu">1,6</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6275/pp?name=Luchtdruk&amp;stationname=Arnhem&amp;extension=hpa">1013,9</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6249/Berkhout">Berkhout</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6249/ta?name=Temperatuur&amp;stationname=Berkhout&amp;extension=in%2Bgraden">10,0</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6249/rh?name=Luchtvochtigheid&amp;stationname=Berkhout&amp;extension=procenten">97</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6249/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Berkhout&amp;extension=km%2Fu">ZZW 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6249/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Berkhout&amp;extension=km%2Fu">2,2</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6249/pp?name=Luchtdruk&amp;stationname=Berkhout&amp;extension=hpa">-</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6260/De%20Bilt">De Bilt</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6260/ta?name=Temperatuur&amp;stationname=De%20Bilt&amp;extension=in%2Bgraden">8,9</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6260/rh?name=Luchtvochtigheid&amp;stationname=De%20Bilt&amp;extension=procenten">98</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6260/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=De%20Bilt&amp;extension=km%2Fu">ZW 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6260/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=De%20Bilt&amp;extension=km%2Fu">0,6</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6260/pp?name=Luchtdruk&amp;stationname=De%20Bilt&amp;extension=hpa">1013,8</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6235/Den%20Helder">Den Helder</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6235/ta?name=Temperatuur&amp;stationname=Den%20Helder&amp;extension=in%2Bgraden">10,5</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6235/rh?name=Luchtvochtigheid&amp;stationname=Den%20Helder&amp;extension=procenten">93</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6235/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Den%20Helder&amp;extension=km%2Fu">ZZW 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6235/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Den%20Helder&amp;extension=km%2Fu">1,3</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6235/pp?name=Luchtdruk&amp;stationname=Den%20Helder&amp;extension=hpa">1013,3</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6370/Eindhoven">Eindhoven</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6370/ta?name=Temperatuur&amp;stationname=Eindhoven&amp;extension=in%2Bgraden">9,2</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6370/rh?name=Luchtvochtigheid&amp;stationname=Eindhoven&amp;extension=procenten">97</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6370/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Eindhoven&amp;extension=km%2Fu">WZW 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6370/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Eindhoven&amp;extension=km%2Fu">2,0</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6370/pp?name=Luchtdruk&amp;stationname=Eindhoven&amp;extension=hpa">1014,1</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6377/Ell">Ell</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6377/ta?name=Temperatuur&amp;stationname=Ell&amp;extension=in%2Bgraden">9,0</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6377/rh?name=Luchtvochtigheid&amp;stationname=Ell&amp;extension=procenten">99</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6377/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Ell&amp;extension=km%2Fu">O 0</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6377/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Ell&amp;extension=km%2Fu">0,5</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6377/pp?name=Luchtdruk&amp;stationname=Ell&amp;extension=hpa">-</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6350/Gilze%20Rijen">Gilze Rijen</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6350/ta?name=Temperatuur&amp;stationname=Gilze%20Rijen&amp;extension=in%2Bgraden">8,2</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6350/rh?name=Luchtvochtigheid&amp;stationname=Gilze%20Rijen&amp;extension=procenten">98</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6350/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Gilze%20Rijen&amp;extension=km%2Fu">ZZW 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6350/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Gilze%20Rijen&amp;extension=km%2Fu">1,4</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6350/pp?name=Luchtdruk&amp;stationname=Gilze%20Rijen&amp;extension=hpa">1014,0</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6280/Groningen">Groningen</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6280/ta?name=Temperatuur&amp;stationname=Groningen&amp;extension=in%2Bgraden">10,5</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6280/rh?name=Luchtvochtigheid&amp;stationname=Groningen&amp;extension=procenten">99</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6280/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Groningen&amp;extension=km%2Fu">ZZW 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6280/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Groningen&amp;extension=km%2Fu">2,0</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6280/pp?name=Luchtdruk&amp;stationname=Groningen&amp;extension=hpa">1013,4</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6279/Hoogeveen">Hoogeveen</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6279/ta?name=Temperatuur&amp;stationname=Hoogeveen&amp;extension=in%2Bgraden">11,3</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6279/rh?name=Luchtvochtigheid&amp;stationname=Hoogeveen&amp;extension=procenten">94</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6279/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Hoogeveen&amp;extension=km%2Fu">ZW 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6279/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Hoogeveen&amp;extension=km%2Fu">3,1</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6279/pp?name=Luchtdruk&amp;stationname=Hoogeveen&amp;extension=hpa">1013,6</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6251/Hoorn%20Terschelling">Hoorn Terschelling</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6251/ta?name=Temperatuur&amp;stationname=Hoorn%20Terschelling&amp;extension=in%2Bgraden">8,6</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6251/rh?name=Luchtvochtigheid&amp;stationname=Hoorn%20Terschelling&amp;extension=procenten">99</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6251/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Hoorn%20Terschelling&amp;extension=km%2Fu">WZW 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6251/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Hoorn%20Terschelling&amp;extension=km%2Fu">2,6</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6251/pp?name=Luchtdruk&amp;stationname=Hoorn%20Terschelling&amp;extension=hpa">1013,2</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6210/Katwijk">Katwijk</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6210/ta?name=Temperatuur&amp;stationname=Katwijk&amp;extension=in%2Bgraden">9,1</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6210/rh?name=Luchtvochtigheid&amp;stationname=Katwijk&amp;extension=procenten">99</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6210/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Katwijk&amp;extension=km%2Fu">ZZO 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6210/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Katwijk&amp;extension=km%2Fu">2,2</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6210/pp?name=Luchtdruk&amp;stationname=Katwijk&amp;extension=hpa">1013,8</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6270/Leeuwarden">Leeuwarden</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6270/ta?name=Temperatuur&amp;stationname=Leeuwarden&amp;extension=in%2Bgraden">11,0</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6270/rh?name=Luchtvochtigheid&amp;stationname=Leeuwarden&amp;extension=procenten">93</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6270/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Leeuwarden&amp;extension=km%2Fu">ZZW 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6270/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Leeuwarden&amp;extension=km%2Fu">2,9</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6270/pp?name=Luchtdruk&amp;stationname=Leeuwarden&amp;extension=hpa">1013,3</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6269/Lelystad">Lelystad</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6269/ta?name=Temperatuur&amp;stationname=Lelystad&amp;extension=in%2Bgraden">10,0</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6269/rh?name=Luchtvochtigheid&amp;stationname=Lelystad&amp;extension=procenten">93</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6269/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Lelystad&amp;extension=km%2Fu">ZW 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6269/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Lelystad&amp;extension=km%2Fu">2,2</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6269/pp?name=Luchtdruk&amp;stationname=Lelystad&amp;extension=hpa">1013,6</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6380/Maastricht">Maastricht</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6380/ta?name=Temperatuur&amp;stationname=Maastricht&amp;extension=in%2Bgraden">11,1</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6380/rh?name=Luchtvochtigheid&amp;stationname=Maastricht&amp;extension=procenten">86</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6380/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Maastricht&amp;extension=km%2Fu">ZZW 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6380/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Maastricht&amp;extension=km%2Fu">3,1</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6380/pp?name=Luchtdruk&amp;stationname=Maastricht&amp;extension=hpa">1014,5</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6344/Rotterdam">Rotterdam</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6344/ta?name=Temperatuur&amp;stationname=Rotterdam&amp;extension=in%2Bgraden">9,3</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6344/rh?name=Luchtvochtigheid&amp;stationname=Rotterdam&amp;extension=procenten">99</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6344/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Rotterdam&amp;extension=km%2Fu">ZZO 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6344/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Rotterdam&amp;extension=km%2Fu">0,9</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6344/pp?name=Luchtdruk&amp;stationname=Rotterdam&amp;extension=hpa">1013,8</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6240/Schiphol">Schiphol</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6240/ta?name=Temperatuur&amp;stationname=Schiphol&amp;extension=in%2Bgraden">10,3</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6240/rh?name=Luchtvochtigheid&amp;stationname=Schiphol&amp;extension=procenten">94</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6240/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Schiphol&amp;extension=km%2Fu">ZW 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6240/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Schiphol&amp;extension=km%2Fu">2,9</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6240/pp?name=Luchtdruk&amp;stationname=Schiphol&amp;extension=hpa">1013,7</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6267/Stavoren">Stavoren</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6267/ta?name=Temperatuur&amp;stationname=Stavoren&amp;extension=in%2Bgraden">12,1</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6267/rh?name=Luchtvochtigheid&amp;stationname=Stavoren&amp;extension=procenten">92</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6267/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Stavoren&amp;extension=km%2Fu">WZW 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6267/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Stavoren&amp;extension=km%2Fu">3,2</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6267/pp?name=Luchtdruk&amp;stationname=Stavoren&amp;extension=hpa">-</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6290/Twente">Twente</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6290/ta?name=Temperatuur&amp;stationname=Twente&amp;extension=in%2Bgraden">9,5</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6290/rh?name=Luchtvochtigheid&amp;stationname=Twente&amp;extension=procenten">99</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6290/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Twente&amp;extension=km%2Fu">ZO 0</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6290/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Twente&amp;extension=km%2Fu">0,8</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6290/pp?name=Luchtdruk&amp;stationname=Twente&amp;extension=hpa">1014,0</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6310/Vlissingen">Vlissingen</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6310/ta?name=Temperatuur&amp;stationname=Vlissingen&amp;extension=in%2Bgraden">13,5</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6310/rh?name=Luchtvochtigheid&amp;stationname=Vlissingen&amp;extension=procenten">94</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6310/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Vlissingen&amp;extension=km%2Fu">ZZW 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6310/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Vlissingen&amp;extension=km%2Fu">3,4</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6310/pp?name=Luchtdruk&amp;stationname=Vlissingen&amp;extension=hpa">1014,2</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6375/Volkel">Volkel</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6375/ta?name=Temperatuur&amp;stationname=Volkel&amp;extension=in%2Bgraden">10,6</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6375/rh?name=Luchtvochtigheid&amp;stationname=Volkel&amp;extension=procenten">96</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6375/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Volkel&amp;extension=km%2Fu">WZW 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6375/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Volkel&amp;extension=km%2Fu">1,6</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6375/pp?name=Luchtdruk&amp;stationname=Volkel&amp;extension=hpa">1014,1</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6319/Westdorpe">Westdorpe</a>
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6319/ta?name=Temperatuur&amp;stationname=Westdorpe&amp;extension=in%2Bgraden">7,8</a>                        
+                        </td>
+                        <td>                        
+                            
+                            <a href="/weerstation/grafiek/6319/rh?name=Luchtvochtigheid&amp;stationname=Westdorpe&amp;extension=procenten">100</a>%
+                        </td>
+                        <td>
+                            
+                            <a href="/weerstation/grafiek/6319/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Westdorpe&amp;extension=km%2Fu">Z 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6319/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Westdorpe&amp;extension=km%2Fu">1,3</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6319/pp?name=Luchtdruk&amp;stationname=Westdorpe&amp;extension=hpa">1014,4</a>                                                
+                        </td>
+                    </tr>
+                
+                <tr>
+                    <th colspan="6">
+                        Overige weerstations
+                    </th>
+                </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6391/arcen">Arcen</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6391/ta?name=Temperatuur&amp;stationname=arcen&amp;extension=in%2Bgraden">9,8</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6391/rh?name=Luchtvochtigheid&amp;stationname=Arcen&amp;extension=procenten">99</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6391/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Arcen&amp;extension=km%2Fu">Z 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6391/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Arcen&amp;extension=km%2Fu">1,5</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6391/pp?name=Luchtdruk&amp;stationname=Arcen&amp;extension=hpa">-</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6283/groenlo-hupsel">Groenlo-Hupsel</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6283/ta?name=Temperatuur&amp;stationname=groenlo-hupsel&amp;extension=in%2Bgraden">8,4</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6283/rh?name=Luchtvochtigheid&amp;stationname=Groenlo-Hupsel&amp;extension=procenten">98</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6283/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Groenlo-Hupsel&amp;extension=km%2Fu">Z 0</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6283/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Groenlo-Hupsel&amp;extension=km%2Fu">0,5</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6283/pp?name=Luchtdruk&amp;stationname=Groenlo-Hupsel&amp;extension=hpa">-</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6278/heino">Heino</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6278/ta?name=Temperatuur&amp;stationname=heino&amp;extension=in%2Bgraden">9,9</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6278/rh?name=Luchtvochtigheid&amp;stationname=Heino&amp;extension=procenten">98</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6278/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Heino&amp;extension=km%2Fu">WNW 0</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6278/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Heino&amp;extension=km%2Fu">2,2</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6278/pp?name=Luchtdruk&amp;stationname=Heino&amp;extension=hpa">-</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6356/herwijnen">Herwijnen</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6356/ta?name=Temperatuur&amp;stationname=herwijnen&amp;extension=in%2Bgraden">9,3</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6356/rh?name=Luchtvochtigheid&amp;stationname=Herwijnen&amp;extension=procenten">100</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6356/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Herwijnen&amp;extension=km%2Fu">Z 0</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6356/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Herwijnen&amp;extension=km%2Fu">0,8</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6356/pp?name=Luchtdruk&amp;stationname=Herwijnen&amp;extension=hpa">1013,7</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6330/hoek-van-holland">Hoek van Holland</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6330/ta?name=Temperatuur&amp;stationname=hoek-van-holland&amp;extension=in%2Bgraden">11,6</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6330/rh?name=Luchtvochtigheid&amp;stationname=Hoek%20van%20Holland&amp;extension=procenten">95</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6330/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Hoek%20van%20Holland&amp;extension=km%2Fu">WZW 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6330/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Hoek%20van%20Holland&amp;extension=km%2Fu">3,5</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6330/pp?name=Luchtdruk&amp;stationname=Hoek%20van%20Holland&amp;extension=hpa">1013,8</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6277/lauwersoog">Lauwersoog</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6277/ta?name=Temperatuur&amp;stationname=lauwersoog&amp;extension=in%2Bgraden">12,6</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6277/rh?name=Luchtvochtigheid&amp;stationname=Lauwersoog&amp;extension=procenten">92</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6277/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Lauwersoog&amp;extension=km%2Fu">ZZW 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6277/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Lauwersoog&amp;extension=km%2Fu">2,8</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6277/pp?name=Luchtdruk&amp;stationname=Lauwersoog&amp;extension=hpa">-</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6348/lopik-cabauw">Lopik-Cabauw</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6348/ta?name=Temperatuur&amp;stationname=lopik-cabauw&amp;extension=in%2Bgraden">8,4</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6348/rh?name=Luchtvochtigheid&amp;stationname=Lopik-Cabauw&amp;extension=procenten">99</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6348/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Lopik-Cabauw&amp;extension=km%2Fu">ZZW 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6348/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Lopik-Cabauw&amp;extension=km%2Fu">1,2</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6348/pp?name=Luchtdruk&amp;stationname=Lopik-Cabauw&amp;extension=hpa">1013,9</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6286/nieuw-beerta">Nieuw Beerta</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6286/ta?name=Temperatuur&amp;stationname=nieuw-beerta&amp;extension=in%2Bgraden">11,0</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6286/rh?name=Luchtvochtigheid&amp;stationname=Nieuw%20Beerta&amp;extension=procenten">95</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6286/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Nieuw%20Beerta&amp;extension=km%2Fu">ZZW 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6286/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Nieuw%20Beerta&amp;extension=km%2Fu">1,2</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6286/pp?name=Luchtdruk&amp;stationname=Nieuw%20Beerta&amp;extension=hpa">-</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6242/vlieland">Vlieland</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6242/ta?name=Temperatuur&amp;stationname=vlieland&amp;extension=in%2Bgraden">12,1</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6242/rh?name=Luchtvochtigheid&amp;stationname=Vlieland&amp;extension=procenten">88</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6242/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Vlieland&amp;extension=km%2Fu">WZW 3</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6242/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Vlieland&amp;extension=km%2Fu">4,4</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6242/pp?name=Luchtdruk&amp;stationname=Vlieland&amp;extension=hpa">1013,2</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6215/voorschoten">Voorschoten</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6215/ta?name=Temperatuur&amp;stationname=voorschoten&amp;extension=in%2Bgraden">8,0</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6215/rh?name=Luchtvochtigheid&amp;stationname=Voorschoten&amp;extension=procenten">99</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6215/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Voorschoten&amp;extension=km%2Fu">Z 1</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6215/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Voorschoten&amp;extension=km%2Fu">1,3</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6215/pp?name=Luchtdruk&amp;stationname=Voorschoten&amp;extension=hpa">1013,8</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6257/wijk-aan-zee">Wijk aan Zee</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6257/ta?name=Temperatuur&amp;stationname=wijk-aan-zee&amp;extension=in%2Bgraden">13,1</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6257/rh?name=Luchtvochtigheid&amp;stationname=Wijk%20aan%20Zee&amp;extension=procenten">90</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6257/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Wijk%20aan%20Zee&amp;extension=km%2Fu"> 0</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6257/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Wijk%20aan%20Zee&amp;extension=km%2Fu">-</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6257/pp?name=Luchtdruk&amp;stationname=Wijk%20aan%20Zee&amp;extension=hpa">-</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="mark">
+                        <td>
+                            <a href="/weerstation/6340/woensdrecht">Woensdrecht</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6340/ta?name=Temperatuur&amp;stationname=woensdrecht&amp;extension=in%2Bgraden">7,4</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6340/rh?name=Luchtvochtigheid&amp;stationname=Woensdrecht&amp;extension=procenten">96</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6340/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Woensdrecht&amp;extension=km%2Fu">O 0</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6340/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Woensdrecht&amp;extension=km%2Fu">0,4</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6340/pp?name=Luchtdruk&amp;stationname=Woensdrecht&amp;extension=hpa">1014,1</a>                                                
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td>
+                            <a href="/weerstation/6239/zeeplatform-f-3">Zeeplatform F-3</a>
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6239/ta?name=Temperatuur&amp;stationname=zeeplatform-f-3&amp;extension=in%2Bgraden">15,1</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6239/rh?name=Luchtvochtigheid&amp;stationname=Zeeplatform%20F-3&amp;extension=procenten">85</a>%
+                        </td>
+                        <td>                        
+                            <a href="/weerstation/grafiek/6239/ff?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Zeeplatform%20F-3&amp;extension=km%2Fu">OZO 2</a>
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6239/fxs?name=Windsnelheid%2520(km%2Fu)&amp;stationname=Zeeplatform%20F-3&amp;extension=km%2Fu">4,7</a>                        
+                        </td>
+                        <td>
+                            <a href="/weerstation/grafiek/6239/pp?name=Luchtdruk&amp;stationname=Zeeplatform%20F-3&amp;extension=hpa">1012,4</a>                                                
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+</div>
+
+        </div>
+        
+
+
+<!-- ColumnLeftPartial -->
+<div id="weatherinfo">
+</div>
+
+<div class="news-column">
+    <div class="ads2">
+        <div id="banner-a">
+        </div>
+        <div id="banner-a-high">
+            <!-- <div  border="no" scrolling="no" style="border:0;width:336px;min-height:280px" data-rtldart-pos="rectangle"  data-rtldart-format="[336,280]" data-rtldart-creative="rich"></div> -->
+        </div>
+        <div id="banner-a-low">
+            <!-- <div  border="no" scrolling="no" style="border:0;width:120px;height:600px;min-height:600px" data-rtldart-pos="skyscraper"  data-rtldart-format="[120,600]"></div> -->
+        </div>
+        <div id="banner-a-mid">
+            <!-- <div  border="no" scrolling="no" style="border:0;width:160px;height:600px;min-height:600px" data-rtldart-pos="skyscraper"  data-rtldart-format="[160,600]"></div> -->
+        </div>
+    </div>
+    
+        <div class="box">
+            <div class="heading">
+<h2>Weervideo 3 oktober 2015 - 19:55</h2>
+</div>
+<div id="weervideothumb" onclick="document.location.href = '/weerbericht-nederland?utm_source=frontpage_video&utm_medium=banner&utm_campaign=video_image#weervideo';"><img src="/Image/WeatherVideoThumb/108b12e5-ecec-30a7-bb50-690e05b34d97"/>
+    <img id="playbutton" src="/images/playbutton.png" /></div>       
+        </div>
+  
+
+            
+
+        <div class="box">
+                <div class="heading">
+        <a class="rss-link" href="/rss/berichten">rss</a>
+        <h2>
+            Nieuws
+        </h2>
+    </div>    
+    <ul class="news-list news-list2 hfeed">
+            <li class="hentry item-1">
+                <div class="img">
+                    <img class="photo" src="http://cms.buienradar.nl/media/250819/herfst_2015.jpg" alt="" width="71" height="71" />
+                </div>
+                <div class="holder">
+                    <h3 class="entry-title">
+                        <a href="/Home/TextPage?pageid=11283">Herfstmaanden</a>
+                    </h3>
+                    <p class="entry-content">
+                         De herfst is een echte overgangsperiode waardoor verschillende weertype`s de revue in snel tempo kunnen opvolgen.</p>
+                    <a href="/Home/TextPage?pageid=11283">Lees verder</a>
+                </div>
+            </li>
+            <li class="hentry item-1">
+                <div class="img">
+                    <img class="photo" src="http://cms.buienradar.nl/media/250812/clip_280915.jpg" alt="" width="71" height="71" />
+                </div>
+                <div class="holder">
+                    <h3 class="entry-title">
+                        <a href="/Home/TextPage?pageid=1259">Europa weerbericht</a>
+                    </h3>
+                    <p class="entry-content">
+                         'Medicane' boven de Middellandse Zee: hevige regenval op met name Corsica. Tot bijna 400 mm in 48 uur.</p>
+                    <a href="/Home/TextPage?pageid=1259">Lees verder</a>
+                </div>
+            </li>
+    </ul>
+
+        </div>
+    
+
+    <div class="box">
+        
+<div class="heading">
+    <a class="twitter-link" target="_blank" href="http://twitter.com/buienradarnl">Volg ons op Twitter</a>
+    <h2>
+        Weerupdates
+    </h2>
+</div>
+<ul class="news-list hfeed">
+        <li class="hentry">
+            <p class="entry-content">
+                Morgen opnieuw #zonnige perioden en droog. Temperatuur 16 gr op Wadden tot lokaal 20 gr in het binnenland!</p>
+            <ul>
+                <li><a target="_blank" href="http://www.twitter.com/BuienRadarNL">Buienradar</a></li>
+                <li><a target="_blank" href="http://twitter.com/Buienradar/statuses/650381680805482496">3 uur geleden</a></li>
+            </ul>
+        </li>        
+        <li class="hentry">
+            <p class="entry-content">
+                Vind jij dat #Buienradar de titel 'Website van het jaar 2015' verdient? Help ons mee en stem op <a href="http://t.co/Ve1Ew67NdS" target="_blank">http://t.co/Ve1Ew67NdS</a> !</p>
+            <ul>
+                <li><a target="_blank" href="http://www.twitter.com/BuienRadarNL">Buienradar</a></li>
+                <li><a target="_blank" href="http://twitter.com/Buienradar/statuses/650251314648080384">11 uur geleden</a></li>
+            </ul>
+        </li>        
+</ul>
+
+    </div>
+        <div class="box">
+            <div class="heading">
+    <h2>
+        Foto's en video's
+    </h2>
+</div>
+<ul class="video-list">
+            <li class="item-0"><a href="http://social.buienradar.nl/media?mediaId=20888665" title="Zutphen in de mist met maar 5 graden. #buienradar">
+                <img src="http://img.mobypicture.com/c4e57614f614af6ea6d8390800ffc8e6_small.jpg" alt="Zutphen in de mist met maar 5 graden. #buienradar" width="94" height="65" /></a></li>
+            <li class="item-1"><a href="http://social.buienradar.nl/media?mediaId=20888527" title="Atalanta kleurt mooi op de gele zonnebloemen #buienradar">
+                <img src="http://img.mobypicture.com/6faab9151f659ea61dee49f995497fc1_small.jpg" alt="Atalanta kleurt mooi op de gele zonnebloemen #buienradar" width="94" height="65" /></a></li>
+            <li class="item-2"><a href="http://social.buienradar.nl/media?mediaId=20887859" title="Trekvogels op weg naar het zuiden. #buienradar">
+                <img src="http://img.mobypicture.com/118c93418c2c9bfc7cf4d0369ccd7e5d_small.jpg" alt="Trekvogels op weg naar het zuiden. #buienradar" width="94" height="65" /></a></li>
+            <li class="item-3"><a href="http://social.buienradar.nl/media?mediaId=20887724" title="Frisse start voor de F- pupillen om 8.30 uur, later kwam de zon erbij. #buienradar">
+                <img src="http://img.mobypicture.com/366b300e5cc27b802f2887db162c9941_small.jpg" alt="Frisse start voor de F- pupillen om 8.30 uur, later kwam de zon erbij. #buienradar" width="94" height="65" /></a></li>
+            <li class="item-4"><a href="http://social.buienradar.nl/media?mediaId=20887542" title="Zon, blauw en wolken om 10.00 uur #buienradar">
+                <img src="http://img.mobypicture.com/005de8be7485d6e51219d4eea980848b_small.jpg" alt="Zon, blauw en wolken om 10.00 uur #buienradar" width="94" height="65" /></a></li>
+            <li class="item-5"><a href="http://social.buienradar.nl/media?mediaId=20875110" title="A new start in the forest #buienradar">
+                <img src="http://img.mobypicture.com/3662bf5d37497927f26ecda798401206_small.jpg" alt="A new start in the forest #buienradar" width="94" height="65" /></a></li>
+            <li class="item-6"><a href="http://social.buienradar.nl/media?mediaId=20873264" title="De mooi gekleurde Herfstaster geniet ook van de zon. #buienradar">
+                <img src="http://img.mobypicture.com/ce6219063940cd294c93bee8997b7f54_small.jpg" alt="De mooi gekleurde Herfstaster geniet ook van de zon. #buienradar" width="94" height="65" /></a></li>
+            <li class="item-7"><a href="http://social.buienradar.nl/media?mediaId=20871081" title="mistige start op vrijdagochtend #buienradar">
+                <img src="http://img.mobypicture.com/2a84d8761f140a64f46b0055f04e3d38_small.jpg" alt="mistige start op vrijdagochtend #buienradar" width="94" height="65" /></a></li>
+            <li class="item-8"><a href="http://social.buienradar.nl/media?mediaId=20870437" title="kijk maar uit dat je niet op de horens genomen wordt!!! #buienradar">
+                <img src="http://img.mobypicture.com/48a66afbaa70387bb02294c13d97ad45_small.jpg" alt="kijk maar uit dat je niet op de horens genomen wordt!!! #buienradar" width="94" height="65" /></a></li>
+</ul>
+
+        </div>
+    
+    <!-- Promo's -->
+
+    
+    
+</div>
+<!-- /ColumnLeftPartial -->
+
+    </div>
+    <div>
+    <div id="smallForecastContainer" class="fs_zoekplaats ng-cloak" ng-controller="smallForecastController" ng-cloak>
+    <div class="fs_buttoncontainer">
+        <div class="fs_titleSearchbutton">Het weer in </div>
+        <div class="fs_button">
+            <input id="fs_location" name="location" type="text" autocomplete="off" class='fs_description_active form-control' value="">
+        </div>
+        <div id="fs_searchbutton"></div>
+    </div>
+    <div id="fs_weatherdayContainer" class="fs_weatherdayContainer 5cols">
+        <div class="fs_weatherday" id="fs_weatherday_{{$index}}" ng-repeat="day in forecast.days | limitTo:5">
+            <span ng-if="$index==0" onclick="redirect('#nu')" style="cursor:pointer;">
+                <span class="fs_daytext">{{dayTitle($index)}}</span><br />
+                <img ng-src="/Images/wpp/30x30/{{day.iconcode}}.png" />
+                <br />
+                <span class="fs_maxtemp" ng-hide="day.temperature>50">{{day.temperature}}°</span>
+                <span class="fs_seperator" ng-hide="day.temperature>50||day.mintemperature<-70">/</span>
+                <span class="fs_mintemp" ng-hide="day.mintemperature<-70">{{day.mintemperature}}°</span>
+                <br />
+                
+            </span>
+            <span ng-if="$index>0" onclick="redirect('#14daagse')" style="cursor:pointer;">
+                <span class="fs_daytext">{{dayTitle($index)}}</span><br />
+                <img ng-src="/Images/wpp/30x30/{{day.iconcode}}.png" />
+                <br />
+                <span class="fs_maxtemp" ng-hide="day.temperature>50">{{day.temperature}}°</span>
+                <span class="fs_seperator" ng-hide="day.temperature>50||day.mintemperature<-70">/</span>
+                <span class="fs_mintemp" ng-hide="day.mintemperature<-70">{{day.mintemperature}}°</span>
+                <br />
+                
+            </span>
+</div>
+    </div>
+    <div id="fs_navigation">
+        <div id="fs_menuNu" class="fs_menu fs_first" onclick="redirect('#nu')">Nu</div>
+        <div id="fs_menu5dagen" class="fs_menu" onclick="redirect('#5daagse')">5-daagse</div>
+        <div id="fs_menu14dagen" class="fs_menu" onclick="redirect('#14daagse')">14-daagse</div>
+        <div id="fs_menuLocatiewijzigen_small" class="fs_menu fs_last" onclick="showLocationWindow()" title="Voorkeurslocatie wijzigen">Locatie wijzigen</div>
+        <div id="fs_menuLocatiewijzigen_large" class="fs_menu fs_last" onclick="showLocationWindow()">Voorkeurslocatie wijzigen</div>
+        </div>
+</div>
+
+<div id="mylocationPopupContainer" style="display:none;">
+<div id="mylocationPopup" class="mylocationPopup" title="" style="background-color:white;">
+    <div class="mylocLocationsearchContainer">
+        <div class="mylocLocationsearch">
+            <div  id="mylocLocationlabel" class="greentext">Kies een voorkeurslocatie<br /></div>
+            <p>Uw voorkeurslocatie wordt op uw systeem onthouden en bij ieder volgend bezoek aan Buienradar standaard zichtbaar. U kunt uw locatie op ieder gewenst moment wijzigen.</p><br />
+            <div class="mylocContainer">
+                <div class="mylocContainer"><input type="text" value="Zoek op plaats" name="mylocLocation" id="mylocLocation" class="text ui-widget-content ui-corner-all"></div>
+                
+                <div class="mylocContainer"><input type="hidden"  id="mylocCookievalue" value="" /></div>
+            <div id="mylocResultset" class="resultset">
+                <div id="mylocLists">
+                    <div id="mylocLocationlist"  class="locationlist"></div>
+                </div>
+            </div>
+             </div>
+            <div class="mylocContainer"><input id="mylocSave" type="button" class="buttonGreen" style="float:left;" value="Locatie opslaan" onclick="savePrefLocation();" />&nbsp;<input type="button" class="buttonGreen" style="float:left;" value="Sluiten" onclick="parent.$.fancybox.close();" /></div>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <div class="weatherinfo" id="sidebarcontainerWeatherinfo" style="min-height:1400px;width:107px;">
+        <div id="sidebar">
+<div class="block">
+<h4><a href="http://www.buienradar.nl">Buienradar</a></h4>
+<ul class="list">
+<li><a href="/verwachting-2-uur">Komende 2 uur</a></li>
+<li><a href="/verwachting-3-uur">Komende 3 uur</a></li>
+<li><a href="/verwachting-24-uur/neerslag">Komende 24-42 uur</a></li>
+<li><a href="http://europa.buienradar.nl/3daagse.aspx">Komende 7 dgn EU</a></li>
+<li><a href="/home/panorama">Panoramaradar</a></li>
+</ul>
+<div class="time-list"><ul class="time-list-cols"><li><a href="/radar-verwachting/201510032325?type=forecastzozw">23:25</a></li><li><a href="/radar-verwachting/201510032330?type=forecastzozw">23:30</a></li><li><a href="/radar-verwachting/201510032335?type=forecastzozw">23:35</a></li><li><a href="/radar-verwachting/201510032340?type=forecastzozw">23:40</a></li><li><a href="/radar-verwachting/201510032345?type=forecastzozw">23:45</a></li><li><a href="/radar-verwachting/201510032350?type=forecastzozw">23:50</a></li><li><a href="/radar-verwachting/201510032355?type=forecastzozw">23:55</a></li><li><a href="/radar-verwachting/201510040000?type=forecastzozw">00:00</a></li></ul><ul class="time-list-cols"><li><a href="/radar-verwachting/201510040005?type=forecastzozw">00:05</a></li><li><a href="/radar-verwachting/201510040010?type=forecastzozw">00:10</a></li><li><a href="/radar-verwachting/201510040015?type=forecastzozw">00:15</a></li><li><a href="/radar-verwachting/201510040020?type=forecastzozw">00:20</a></li><li><a href="/radar-verwachting/201510040025?type=forecastzozw">00:25</a></li><li><a href="/radar-verwachting/201510040030?type=forecastzozw">00:30</a></li><li><a href="/radar-verwachting/201510040035?type=forecastzozw">00:35</a></li><li><a href="/radar-verwachting/201510040040?type=forecastzozw">00:40</a></li></ul><ul class="time-list-cols"><li><a href="/radar-verwachting/201510040045?type=forecastzozw">00:45</a></li><li><a href="/radar-verwachting/201510040050?type=forecastzozw">00:50</a></li><li><a href="/radar-verwachting/201510040055?type=forecastzozw">00:55</a></li><li><a href="/radar-verwachting/201510040100?type=forecastzozw">01:00</a></li><li><a href="/radar-verwachting/201510040105?type=forecastzozw">01:05</a></li><li><a href="/radar-verwachting/201510040110?type=forecastzozw">01:10</a></li><li><a href="/radar-verwachting/201510040115?type=forecastzozw">01:15</a></li><li><a href="/verwachting-24-uur/neerslag" class="more">meer</a></li></ul></div>
+</div>
+<div class="block">
+<h4><a href="http://www.buienradar.nl/">Actueel</a></h4>
+<ul class="list">
+<li><a href="/afgelopen-uur">Afgelopen uur</a></li>
+<li> </li>
+<li><a href="/afgelopen-2-uur">Afgelopen 2</a>, <a href="/afgelopen-3-uur">3</a>, <a href="/afgelopen-24-uur">24u</a></li>
+<li><a href="/hagel-1-uur">Hagelkans: ja</a></li>
+</ul>
+<div class="time-list"><ul class="time-list-cols"><li><a href="/radar/201510032320">23:20</a></li><li><a href="/radar/201510032315">23:15</a></li><li><a href="/radar/201510032310">23:10</a></li><li><a href="/radar/201510032305">23:05</a></li></ul><ul class="time-list-cols"><li><a href="/radar/201510032300">23:00</a></li><li><a href="/radar/201510032255">22:55</a></li><li><a href="/radar/201510032250">22:50</a></li><li><a href="/radar/201510032245">22:45</a></li></ul><ul class="time-list-cols"><li><a href="/radar/201510032240">22:40</a></li><li><a href="/radar/201510032235">22:35</a></li><li><a href="/radar/201510032230">22:30</a></li><li><a class="more" href="/radararchief">meer</a></li></ul></div>
+</div>
+<div class="block">
+<h4><a href="http://europa.buienradar.nl/">Europa</a></h4>
+<ul class="list">
+<li><a href="http://europa.buienradar.nl/radar-verwachting">Komende 3 uur</a></li>
+<li><a href="http://europa.buienradar.nl/">Afgelopen 3 uur</a></li>
+<li><a href="http://europa.buienradar.nl/wolkenregen">Radar &amp; wolken</a></li>
+<li><a href="http://europa.buienradar.nl/onweer">Onweer</a></li>
+<li><a href="http://europa.buienradar.nl/archief">Europa archief</a></li>
+</ul>
+</div>
+<div class="block">
+<h4><a href="http://www.buienradar.nl/buienradar-locatie-instellen">Mijn radar</a></h4>
+<ul id="refspots" class="list">
+<li><a href="/buienradar-locatie-instellen">instellen NL</a></li>
+<li><a href="http://europa.buienradar.nl/local.aspx">instellen EU</a></li>
+</ul>
+</div>
+<div class="block">
+<h4><a href="http://www.buienradar.nl/evenementen/agenda">Evenementen</a></h4>
+<ul class="list">
+<li style="list-style: none;"><li><a href="/evenement/3e-mega-hobbyfestival-ahoy-rotterdam/16676" title="3e Mega Hobbyfestival Ahoy-Rotterdam" target="_top">3e Mega Hobbyfe...</a></li><li><a href="/evenement/antiek-brocantemarkt-roermond/16960" title="Antiek & Brocantemarkt Roermond" target="_top">Antiek & Brocan...</a></li><li><a href="/evenement/ballooactief-oefencross-paarden-en-ponies/16908" title="BallooActief oefencross paarden en ponies" target="_top">BallooActief oe...</a></li></li>
+<li><a href="/evenementen/agenda">meer evenementen</a></li>
+<li><a href="/evenementen/toevoegen">voeg zelf toe</a></li>
+</ul>
+</div>
+<h3>Meer weer</h3>
+<div class="block">
+<h4><a href="http://www.buienradar.nl/actueel">Actueel</a></h4>
+<ul class="list">
+<li><a href="/weerkaarten/temperatuur">Temperatuurkaart</a></li>
+<li><a href="/weerkaarten/wind">Windkaart</a></li>
+<li><a href="/weerkaarten/temperatuur" class="more">Meer actueel</a></li>
+</ul>
+</div>
+<div class="block">
+<h4><a href="http://www.buienradar.nl/weerbericht-nederland">Verwacht</a></h4>
+<ul class="list">
+<li><a href="/Home/weatherforecasttoday">weerbericht</a></li>
+<li><a href="http://europa.buienradar.nl/verwachting/neerslag">7 daagse</a></li>
+<li><a href="/weerbericht-nederland-komende-5-tot-9-dagen" class="more">Meer verwacht</a></li>
+</ul>
+</div>
+<div class="block">
+<h4><a href="http://wolken.buienradar.nl/">Zon &amp; wolken</a></h4>
+<ul class="list">
+<li><a href="http://wolken.buienradar.nl/eu">Europa</a></li>
+<li><a href="http://wolken.buienradar.nl/af">Afrika</a></li>
+<li><a href="http://wolken.buienradar.nl/" class="more">Meer bewolking</a></li>
+</ul>
+</div>
+</div>
+    </div>
+</div>
+    </div>
+    
+
+
+<div class="aside">
+
+<div class="block text-block">
+    <h3 class="title">
+        <span><a target="_blank" href="http://www.routeradar.nl">Routeradar</a></span>
+    </h3>
+    <div class="verkeerTable">
+        <table>
+            <tr>
+                <td><a target="_blank" href="http://www.routeradar.nl">Files</a></td>
+                <td><span><a target="_blank" class="" href="http://www.routeradar.nl">4</a> <img class="trend" src="/images/verkeer/fileGelijk.png" /> </span></td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="http://www.routeradar.nl">Lengte</a></td>
+                <td><span><a target="_blank" href="http://www.routeradar.nl">10 km</a> <img class="trend" src="/images/verkeer/fileAfname.png" /></span></td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="http://www.routeradar.nl/verkeer/flitsers/">Flitsers</a></td>
+                <td><span><a target="_blank" href="http://www.routeradar.nl/verkeer/flitsers/">1</a></span></td>
+            </tr>
+            
+        </table>
+    </div>
+</div>
+        <div class="block text-block">
+            <table style="text-align: left; width: 140px; height: 38px;" bgcolor="#da0000" border="0" cellpadding="0" cellspacing="1">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="top"><a href="http://websitevanhetjaar.nl/buienradar/" class="rodebalk">Stem Buienradar voor<br />Website van het jaar!</a></td>
+</tr>
+</tbody>
+</table>
+        </div>
+        <div class="block text-block">
+            <h3 class="title">
+                <a href="/weerbericht-nederland">Weerbericht</a>
+            </h3>
+            <p class="title">
+                <a href="/weerbericht-nederland">Zonnig en droog weekend!</a>
+            </p>                        
+            <p>
+                <strong class="mark">
+                    <a href="/actueel">Nu</a> - <a href="http://europa.buienradar.nl/verwachting/neerslag">3</a> - <a href="/weerbericht-nederland-komende-5-tot-9-dagen">5</a>
+                    - <a href="/weersverwachting/type">14</a> dagen
+                </strong>
+            </p>
+        </div>
+        <div class="thumbnails">
+            <div class="block">
+<h3>Buienradar EU</h3>
+<p><a href="http://europa.buienradar.nl"> <img width="140" height="130" src="http://europa.buienradar.nl/images.aspx?jaar=-3&amp;voor=&amp;soort=meteox140-loop&amp;c=&amp;n=&amp;tijdid=0" alt="Buienradar Europa"/></a></p>
+</div>
+<div class="block">
+<div data-rtldart-format="[140,90]" data-rtldart-pos="button" style="border: 0; width: 140px; height: 90px; min-height: 90px;" scrolling="no" border="no"></div>
+</div>
+<div class="block">
+<h3>Zonradar</h3>
+<a href="http://zomerradar.buienradar.nl/" target="_top"> <img width="140" height="130" src="http://zomerradar.buienradar.nl/image/zon?type=mini" alt="Zonneradar"/> </a></div>
+<div class="block">
+<h3>Satelliet Nederland</h3>
+<p><a href="http://wolken.buienradar.nl/nl"> <img width="140" height="130" src="http://wolken.buienradar.nl/image.ashx?type=meteoxnl&amp;tijdid=0" alt="Satelliet"/></a></p>
+<div class="block">
+<h3>Regenverwachting EU</h3>
+<p><a href="http://europa.buienradar.nl/verwachting/neerslag"> <img width="140" height="130" src="http://europa.buienradar.nl/images.aspx?jaar=-10&amp;soort=loopklnregenstil&amp;tijdid=0" alt="Regenverwachting Europa"/></a></p>
+</div>
+<div class="block">
+<h3>Temperatuur EU</h3>
+<p><a href="http://europa.buienradar.nl/verwachting/temperatuur"> <img width="140" height="130" src="http://europa.buienradar.nl/images.aspx?jaar=-10&amp;soort=loopklndrukstil&amp;tijdid=0" alt="Drukverwachting Europa"/></a></p>
+</div>
+<div class="block">
+<h3>Actuele windkaart</h3>
+<p><a href="http://www.buienradar.nl/weerkaarten/wind"> <img width="140" height="130" src="http://www.buienradar.nl/image/?type=weathermap-small&amp;fn=wind.png" alt="Drukverwachting Europa"/></a></p>
+</div>
+<div class="block">
+<div data-rtldart-format="[140,90]" data-rtldart-pos="button" style="border: 0; width: 140px; height: 90px; min-height: 90px;" scrolling="no" border="no"></div>
+</div>
+</div>
+        </div>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+<div class="footer-holder">
+<div class="footer-nav">
+<div class="col"><strong>Radardiensten</strong>
+<ul>
+<li><a href="http://www.buienradar.nl">Regenradar</a></li>
+<li><a href="http://www.buienradar.nl/motregenradar">Motregenradar</a></li>
+<li><a href="/sneeuwradar">Sneeuwradar</a></li>
+<li><a href="http://zomerradar.buienradar.nl/">Zomerradar</a></li>
+<li><a href="/hagel-1-uur">Hagelkans</a></li>
+<li><a href="http://www.buienradar.nl/bliksem-1-uur">Bliksemontladingen</a></li>
+<li><a href="/wolkenhoogte">Wolkenhoogte</a></li>
+<li><a href="/3d-radar">3D buienradar</a></li>
+<li><a href="/radararchief">Radararchief</a></li>
+<li><a href="/googlemaps">Google maps</a></li>
+</ul>
+</div>
+<div class="col"><strong>Metingen</strong>
+<ul>
+<li><a href="/weerstation/6260/debilt">Weerstations</a></li>
+<li><a href="/weerkaarten/temperatuur">Temperatuurkaart</a></li>
+<li><a href="/weerkaarten/wind">Windkaart</a></li>
+<li><a href="/smog/chartsmodule?type=nidekking">Weergrafieken</a></li>
+<li><a href="http://wereld.buienradar.nl/">Temperaturen wereldwijd</a></li>
+<li><a href="/zeetemperatuur-noordzee">Zeetemperatuur NL</a></li>
+<li><a href="/zeetemperatuur-europa">Zeetemperatuur EU</a></li>
+<li><a href="/zonop-zononder">Zonsopkomst</a></li>
+</ul>
+</div>
+<div class="col"><strong>Lokaal weer</strong>
+<ul>
+<li><a href="/weer/amsterdam/nl/2759794">Amsterdam</a></li>
+<li><a href="/weer/rotterdam/nl/2747891">Rotterdam</a></li>
+<li><a href="/weer/the-hague/nl/2747373">Den Haag</a></li>
+<li><a href="/weer/utrecht/nl/2745912">Utrecht</a></li>
+<li><a href="/weer/groningen/nl/2755251">Groningen</a></li>
+<li><a href="/weer/eindhoven/nl/2756253">Eindhoven</a></li>
+<li><a href="/wereld/eu/nederland?m=eu&amp;c=Netherlands&amp;cnl=Nederland">Meer plaatsen</a></li>
+</ul>
+</div>
+<div class="col"><strong>Over Buienradar</strong>
+<ul>
+<li><a href="/home/textpage?pagename=faq">Veelgestelde vragen</a></li>
+<li><a href="/home/textpage?pagename=legenda">Legenda</a></li>
+<li><a href="http://www.buienradar.nl/team/">Buienradar Team</a></li>
+<li><a href="/home/contact">Contact</a></li>
+<li><a href="/home/textpage?pagename=disclaimer">Disclaimer</a></li>
+<li><a href="http://twitter.com/buienradarnl" target="_blank">Twitter</a></li>
+<li><a href="http://www.facebook.com/buienradar" target="_blank">Facebook</a></li>
+<li><a href="http://adverterenbijrtl.nl/Adverteren/thema/buienradar-en-routeradar" target="_blank">Adverteren</a></li>
+</ul>
+</div>
+<div class="col"><strong>Buienradar links</strong>
+<ul>
+<li><a href="http://buienradar.nl/home/textpage?pagename=telefoon_sms">Telefoonlijn en SMS dienst</a></li>
+<li><a href="http://gratisweerdata.buienradar.nl/">Buienradar op uw website</a></li>
+<li><a href="/home/textpage?pagename=gadgets">Buienradar Mobiel</a></li>
+<li><a href="http://www.buienradar.nl">Buienradar Nederland</a></li>
+<li><a href="http://www.buienradar.be">Buienradar België</a></li>
+<li><a href="http://europa.buienradar.nl">Buienradar Europa</a></li>
+<li><a href="http://wolken.buienradar.nl/">Actuele satellietbeelden</a></li>
+<li><a href="http://nieuws.buienradar.nl/weerbericht.aspx?bron=2">Columns</a></li>
+</ul>
+</div>
+<div class="col"><strong>Buienradar Apps</strong>
+<ul>
+<li><a href="https://itunes.apple.com/nl/app/buienradar/id621542526?mt=8" target="_blank"><img width="155" height="53" src="http://www.buienradar.nl/Images/apple-store-button.png" alt="App Store" border="0"/></a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.supportware.Buienradar&amp;hl=nl" target="_blank"><img width="155" height="54" src="http://www.buienradar.nl/Images/google-play-button.png" alt="Android Market" border="0"/></a></li>
+<li><a href="http://apps.microsoft.com/windows/app/d6deeb0d-4c17-4505-99b5-c5e9abaa5c51"><img width="155" height="" src="https://cmsresources.windowsphone.com/devcenter/en-us/legacy_v1/img/badgegenerator/Dutch_wstore_black_258x67.png" alt="Download from Windows Store"/></a></li>
+<li><a href="/home/textpage?pagename=gadgets">Meer apps en widgets</a></li>
+</ul>
+</div>
+</div>
+<div class="copy">Copyright © 2006 - 2015 Buienradar® is een geregistreerd merk van RTL Nederland</div>
+</div>
+</div>
+        <div class="skip">
+            <a href="#main">Back to top</a>
+        </div>
+    </div>
+
+    <div id="ooppc"></div>
+        <div id="oop">
+            <!--<div data-rtldart-format="" data-rtldart-pos="oop"></div>-->
+        </div>
+
+    <input id="redirectfrom" name="redirectfrom" type="hidden" value="" />
+    <!-- stats -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-434951-24','none', {'allowLinker': true});
+        ga('send', 'pageview');
+    </script>
+
+    
+
+
+    <!-- /stats -->
+    
+
+    <script type="text/javascript" src="/Scripts/technical.min.js"></script>
+
+    <script type="text/javascript">
+        $( "#topbarsearch" ).submit(function( event ) { 
+            if($("#searchtop").val().indexOf("@") != -1)
+                event.preventDefault();
+        })
+    </script>
+
+
+
+    <script src="/bundles/jQueryPlot?v=2DZtbiLuz2RW9CGNiMQBPV6z05QAHqWhhrEnvsnrT8o1"></script>
+
+
+    <!-- begin usabilla live embed code -->
+    <script type="text/javascript">/*{literal}<![CDATA[*/window.lightningjs||function(c){function g(b,d){d&&(d+=(/\?/.test(d)?"&":"?")+"lv=1");c[b]||function(){var i=window,h=document,j=b,g=h.location.protocol,l="load",k=0;(function(){function b(){a.P(l);a.w=1;c[j]("_load")}c[j]=function(){function m(){m.id=e;return c[j].apply(m,arguments)}var b,e=++k;b=this&&this!=i?this.id||0:0;(a.s=a.s||[]).push([e,b,arguments]);m.then=function(b,c,h){var d=a.fh[e]=a.fh[e]||[],j=a.eh[e]=a.eh[e]||[],f=a.ph[e]=a.ph[e]||[];b&&d.push(b);c&&j.push(c);h&&f.push(h);return m};return m};var a=c[j]._={};a.fh={};a.eh={};a.ph={};a.l=d?d.replace(/^\/\//,(g=="https:"?g:"http:")+"//"):d;a.p={0:+new Date};a.P=function(b){a.p[b]=new Date-a.p[0]};a.w&&b();i.addEventListener?i.addEventListener(l,b,!1):i.attachEvent("on"+l,b);var q=function(){function b(){return["<head></head><",c,' onload="var d=',n,";d.getElementsByTagName('head')[0].",d,"(d.",g,"('script')).",i,"='",a.l,"'\"></",c,">"].join("")}var c="body",e=h[c];if(!e)return setTimeout(q,100);a.P(1);var d="appendChild",g="createElement",i="src",k=h[g]("div"),l=k[d](h[g]("div")),f=h[g]("iframe"),n="document",p;k.style.display="none";e.insertBefore(k,e.firstChild).id=o+"-"+j;f.frameBorder="0";f.id=o+"-frame-"+j;/MSIE[ ]+6/.test(navigator.userAgent)&&(f[i]="javascript:false");f.allowTransparency="true";l[d](f);try{f.contentWindow[n].open()}catch(s){a.domain=h.domain,p="javascript:var d="+n+".open();d.domain='"+h.domain+"';",f[i]=p+"void(0);"}try{var r=f.contentWindow[n];r.write(b());r.close()}catch(t){f[i]=p+'d.write("'+b().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};a.l&&setTimeout(q,0)})()}();c[b].lv="1";return c[b]}var o="lightningjs",k=window[o]=g(o);k.require=g;k.modules=c}({}); if (window.location.href.indexOf("buienradar") > -1) {if (!navigator.userAgent.match(/Android|BlackBerry|BB10|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) { window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/ecff6544a813.js"); } else { window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/3f4f6c8896c3.js"); }} else {if (!navigator.userAgent.match(/Android|BlackBerry|BB10|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) { window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/4091f71461a9.js"); } else { window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/009f839e1033.js"); }} /*]]>{/literal}*/</script>
+    <!-- end usabilla live embed code -->
+    <!-- begin mobile usabilla live embed code -->
+    <script type="text/javascript">
+        /*{literal}<![CDATA[*/window.lightningjs||function(c){function g(b,d){d&&(d+=(/\?/.test(d)?"&":"?")+"lv=1");c[b]||function(){var i=window,h=document,j=b,g=h.location.protocol,l="load",k=0;(function(){function b(){a.P(l);a.w=1;c[j]("_load")}c[j]=function(){function m(){m.id=e;return c[j].apply(m,arguments)}var b,e=++k;b=this&&this!=i?this.id||0:0;(a.s=a.s||[]).push([e,b,arguments]);m.then=function(b,c,h){var d=a.fh[e]=a.fh[e]||[],j=a.eh[e]=a.eh[e]||[],f=a.ph[e]=a.ph[e]||[];b&&d.push(b);c&&j.push(c);h&&f.push(h);return m};return m};var a=c[j]._={};a.fh={};a.eh={};a.ph={};a.l=d?d.replace(/^\/\//,(g=="https:"?g:"http:")+"//"):d;a.p={0:+new Date};a.P=function(b){a.p[b]=new Date-a.p[0]};a.w&&b();i.addEventListener?i.addEventListener(l,b,!1):i.attachEvent("on"+l,b);var q=function(){function b(){return["<head></head><",c,' onload="var d=',n,";d.getElementsByTagName('head')[0].",d,"(d.",g,"('script')).",i,"='",a.l,"'\"></",c,">"].join("")}var c="body",e=h[c];if(!e)return setTimeout(q,100);a.P(1);var d="appendChild",g="createElement",i="src",k=h[g]("div"),l=k[d](h[g]("div")),f=h[g]("iframe"),n="document",p;k.style.display="none";e.insertBefore(k,e.firstChild).id=o+"-"+j;f.frameBorder="0";f.id=o+"-frame-"+j;/MSIE[ ]+6/.test(navigator.userAgent)&&(f[i]="javascript:false");f.allowTransparency="true";l[d](f);try{f.contentWindow[n].open()}catch(s){a.domain=h.domain,p="javascript:var d="+n+".open();d.domain='"+h.domain+"';",f[i]=p+"void(0);"}try{var r=f.contentWindow[n];r.write(b());r.close()}catch(t){f[i]=p+'d.write("'+b().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};a.l&&setTimeout(q,0)})()}();c[b].lv="1";return c[b]}var o="lightningjs",k=window[o]=g(o);k.require=g;k.modules=c}({});
+        window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/3f4f6c8896c3.js");
+        /*]]>{/literal}*/</script>
+    <!-- end mobile usabilla live embed code -->
+
+    <!-- xs208 -->
+    
+
+    <!--Adblock Check-->
+    <script type="text/javascript" src="/Scripts/ad.js"></script>
+    <script type="text/javascript"> jQuery(document).ready(checkAds()); function checkAds(){if (document.getElementById('adsense')!=undefined){document.write("<script>ga('send', 'event', 'AdBlock', 'AdsBlocked','false',{'nonInteraction': 1});</sc" + "ript>");}else{document.write("<script>ga('send', 'event', 'AdBlock', 'AdsBlocked','true',{'nonInteraction': 1});</sc" + "ript>");}} </script> <!--End Adblock Check-->
+</body>
+</html>
